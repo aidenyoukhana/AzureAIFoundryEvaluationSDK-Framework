@@ -1,0 +1,10 @@
+# Prerequisites:
+# - Azure AI Foundry Hub is required
+# - Deployment of GPT-4o model in Azure AI Foundry
+
+azure-ai-evaluation
+azure-identity
+pytest
+python-dotenv
+black
+# Add other dependencies as needed

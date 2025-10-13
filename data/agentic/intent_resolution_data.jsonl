@@ -1,0 +1,5 @@
+{"query": "Book a flight to Paris", "response": "Sure, I'll help you book a flight to Paris.", "intent": "booking"}
+{"query": "What's the weather?", "response": "Let me check the weather for you.", "intent": "information"}
+{"query": "Order pizza", "response": "I'd be happy to help with ordering pizza.", "intent": "ordering"}
+{"query": "Tell a joke", "response": "Here's a joke: Why did the chicken cross the road?", "intent": "entertainment"}
+{"query": "Set a reminder", "response": "I'll set a reminder for you.", "intent": "task_management"}

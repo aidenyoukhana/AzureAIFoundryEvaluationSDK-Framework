@@ -1,0 +1,5 @@
+{"response": "AI is smart.", "ground_truth": "Artificial intelligence is intelligent."}
+{"response": "ML learns.", "ground_truth": "Machine learning involves learning from data."}
+{"response": "Python codes.", "ground_truth": "Python is a programming language."}
+{"response": "Cloud stores data.", "ground_truth": "Cloud computing provides storage."}
+{"response": "Blockchain secures.", "ground_truth": "Blockchain ensures security."}
