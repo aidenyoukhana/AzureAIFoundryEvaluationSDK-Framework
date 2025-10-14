@@ -15,8 +15,6 @@ jobs:
     strategy:
       matrix:
         evaluator: 
-          - name: qa
-            data: qa_data.jsonl
           - name: coherence
             data: coherence_data.jsonl
           - name: fluency

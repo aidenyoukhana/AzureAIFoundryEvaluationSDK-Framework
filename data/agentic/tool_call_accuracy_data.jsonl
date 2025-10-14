@@ -1,5 +1,35 @@
-{"query": "What's the weather today?", "response": "I'll check the weather for you.", "tool_calls": ["get_weather"]}
-{"query": "Book a table", "response": "Let me book a table for you.", "tool_calls": ["book_restaurant"]}
-{"query": "Send an email", "response": "I'll send the email.", "tool_calls": ["send_email"]}
-{"query": "Calculate 2+2", "response": "The answer is 4.", "tool_calls": ["calculate"]}
-{"query": "Translate to French", "response": "Voici la traduction.", "tool_calls": ["translate"]}
+{
+  "query": "What's the weather today?",
+  "response": "I'll check the weather for you.",
+  "tool_calls": [
+    "get_weather"
+  ]
+}
+{
+  "query": "Book a table",
+  "response": "Let me book a table for you.",
+  "tool_calls": [
+    "book_restaurant"
+  ]
+}
+{
+  "query": "Send an email",
+  "response": "I'll send the email.",
+  "tool_calls": [
+    "send_email"
+  ]
+}
+{
+  "query": "Calculate 2+2",
+  "response": "The answer is 4.",
+  "tool_calls": [
+    "calculate"
+  ]
+}
+{
+  "query": "Translate to French",
+  "response": "Voici la traduction.",
+  "tool_calls": [
+    "translate"
+  ]
+}

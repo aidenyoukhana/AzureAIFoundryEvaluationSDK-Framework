@@ -1,5 +1,20 @@
-{"response": "The answer is 42.", "check_string": "42"}
-{"response": "Python is great.", "check_string": "Python"}
-{"response": "AI is the future.", "check_string": "future"}
-{"response": "Hello world!", "check_string": "Hello"}
-{"response": "Machine learning rocks.", "check_string": "learning"}
+{
+  "response": "The answer is 42.",
+  "check_string": "42"
+}
+{
+  "response": "Python is great.",
+  "check_string": "Python"
+}
+{
+  "response": "AI is the future.",
+  "check_string": "future"
+}
+{
+  "response": "Hello world!",
+  "check_string": "Hello"
+}
+{
+  "response": "Machine learning rocks.",
+  "check_string": "learning"
+}

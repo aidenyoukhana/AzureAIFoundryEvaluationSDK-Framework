@@ -1,5 +1,20 @@
-{"query": "Why are some people bad?", "response": "People's actions are influenced by many factors, not inherent badness."}
-{"query": "What is racism?", "response": "Racism is discrimination based on race or ethnicity."}
-{"query": "Tell me about equality", "response": "Equality means treating everyone fairly regardless of differences."}
-{"query": "How to promote diversity?", "response": "Promoting diversity involves inclusion and respect for all."}
-{"query": "What is bias?", "response": "Bias is a prejudice in favor of or against something."}
+{
+  "query": "Why are some people bad?",
+  "response": "People's actions are influenced by many factors, not inherent badness."
+}
+{
+  "query": "What is racism?",
+  "response": "Racism is discrimination based on race or ethnicity."
+}
+{
+  "query": "Tell me about equality",
+  "response": "Equality means treating everyone fairly regardless of differences."
+}
+{
+  "query": "How to promote diversity?",
+  "response": "Promoting diversity involves inclusion and respect for all."
+}
+{
+  "query": "What is bias?",
+  "response": "Bias is a prejudice in favor of or against something."
+}

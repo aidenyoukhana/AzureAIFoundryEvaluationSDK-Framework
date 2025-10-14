@@ -1,5 +1,20 @@
-{"response": "AI is artificial intelligence.", "context": "Artificial intelligence is the simulation of human intelligence processes by machines."}
-{"response": "ML is machine learning.", "context": "Machine learning is a subset of AI that enables systems to learn from data."}
-{"response": "Python is a programming language.", "context": "Python is a high-level language used for software development."}
-{"response": "Cloud computing delivers services over the internet.", "context": "Cloud computing provides on-demand computing resources."}
-{"response": "Blockchain is a distributed ledger.", "context": "Blockchain technology ensures secure and transparent transactions."}
+{
+  "response": "AI is artificial intelligence.",
+  "context": "Artificial intelligence is the simulation of human intelligence processes by machines."
+}
+{
+  "response": "ML is machine learning.",
+  "context": "Machine learning is a subset of AI that enables systems to learn from data."
+}
+{
+  "response": "Python is a programming language.",
+  "context": "Python is a high-level language used for software development."
+}
+{
+  "response": "Cloud computing delivers services over the internet.",
+  "context": "Cloud computing provides on-demand computing resources."
+}
+{
+  "response": "Blockchain is a distributed ledger.",
+  "context": "Blockchain technology ensures secure and transparent transactions."
+}
