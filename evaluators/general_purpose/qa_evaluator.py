@@ -1,12 +1,8 @@
 import os
-from azure.ai.evaluation import (
-    QAEvaluator as AzureQAEvaluator,
-    AzureOpenAIModelConfiguration,
-)
+from azure.ai.evaluation import QAEvaluator as AzureQAEvaluator, AzureOpenAIModelConfiguration
 from dotenv import load_dotenv
 
 load_dotenv()
-
 
 class QAEvaluator:
     def __init__(self):
@@ -18,5 +14,10 @@ class QAEvaluator:
         )
         self.evaluator = AzureQAEvaluator(model_config=model_config)
 
-    def evaluate(self, question, answer, context, ground_truth):
-        return self.evaluator(query=question, response=answer, ground_truth=ground_truth, context=context)
+    def evaluate(self, query, response, context, ground_truth):
+        return self.evaluator(
+            query=query,
+            response=response,
+            ground_truth=ground_truth,
+            context=context
+        )

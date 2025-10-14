@@ -1,14 +1,9 @@
 import pytest
 import json
 import os
-
-# Adjust path if needed
-data_dir = os.path.join(
-    os.path.dirname(__file__), "..", "..", "data", "general_purpose"
-)
-
 from evaluators.general_purpose.qa_evaluator import QAEvaluator
 
+data_dir = os.path.join(os.path.dirname(__file__), "..", "..", "data", "general_purpose")
 
 def test_qa_evaluator():
     evaluator = QAEvaluator()
@@ -17,7 +12,16 @@ def test_qa_evaluator():
         for line in f:
             data = json.loads(line.strip())
             result = evaluator.evaluate(
-                data["question"], data["answer"], data.get("context"), data["ground_truth"]
+                query=data["input"],
+                response=data["response"],
+                context=data["context"],
+                ground_truth=data["ground_truth"]
             )
-            print(json.dumps({"question": data["question"], "answer": data["answer"], "context": data.get("context"), "result": result}, indent=2))
+            print(json.dumps({
+                "input": data["input"],
+                "response": data["response"],
+                "context": data["context"],
+                "ground_truth": data["ground_truth"],
+                "result": result
+            }, indent=2))
             assert result is not None
