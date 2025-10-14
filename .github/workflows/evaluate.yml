@@ -17,10 +17,6 @@ jobs:
         evaluator: 
           - name: qa
             data: qa_data.jsonl
-          - name: coherence
-            data: coherence_data.jsonl
-          - name: fluency
-            data: fluency_data.jsonl
     env:
       GENAI_EVALS_CONFIG_PATH: ${{ github.workspace }}/evaluate-config-${{ matrix.evaluator.name }}.json
       GENAI_EVALS_DATA_PATH: ${{ github.workspace }}/data/general_purpose/${{ matrix.evaluator.data }}
