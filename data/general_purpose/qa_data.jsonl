@@ -1,5 +1,5 @@
-{"input":"What is the capital of France?","context":"France is a country in Europe with Paris as its capital.","response":"Paris","ground_truth":"Paris"}
-{"input":"Who wrote Romeo and Juliet?","context":"Shakespeare was an English playwright known for his tragedies.","response":"William Shakespeare","ground_truth":"William Shakespeare"}
-{"input":"What is 2 + 2?","context":"Basic arithmetic shows that 2 plus 2 equals 4.","response":"4","ground_truth":"4"}
-{"input":"What is the largest planet?","context":"Jupiter is the largest planet in our solar system.","response":"Jupiter","ground_truth":"Jupiter"}
-{"input":"How does the internet work?","context":"The internet is a global network of computers communicating via standardized protocols.","response":"Through interconnected networks using protocols like TCP/IP","ground_truth":"Through interconnected networks using protocols like TCP/IP"}
+{"question":"What is the capital of France?","context":"France is a country in Europe with Paris as its capital.","answer":"Paris","ground_truth":"Paris"}
+{"question":"Who wrote Romeo and Juliet?","context":"Shakespeare was an English playwright known for his tragedies.","answer":"William Shakespeare","ground_truth":"William Shakespeare"}
+{"question":"What is 2 + 2?","context":"Basic arithmetic shows that 2 plus 2 equals 4.","answer":"4","ground_truth":"4"}
+{"question":"What is the largest planet?","context":"Jupiter is the largest planet in our solar system.","answer":"Jupiter","ground_truth":"Jupiter"}
+{"question":"How does the internet work?","context":"The internet is a global network of computers communicating via standardized protocols.","answer":"Through interconnected networks using protocols like TCP/IP","ground_truth":"Through interconnected networks using protocols like TCP/IP"}

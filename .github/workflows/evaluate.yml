@@ -35,16 +35,12 @@ jobs:
       - name: Write evaluate config
         run: |
           evaluator_name="${{ matrix.evaluator.name }}"
-
           if [ "$evaluator_name" = "qa" ]; then
             evaluator_class="QAEvaluator"
-            evaluation_parameters='"evaluation_parameters": {"column_mapping": {"question": "input", "answer": "response", "ground_truth": "ground_truth", "context": "context"}},'
           elif [ "$evaluator_name" = "coherence" ]; then
             evaluator_class="CoherenceEvaluator"
-            evaluation_parameters=""
           elif [ "$evaluator_name" = "fluency" ]; then
             evaluator_class="FluencyEvaluator"
-            evaluation_parameters=""
           fi
 
           cat > ${{ env.GENAI_EVALS_CONFIG_PATH }} <<EOF
@@ -53,7 +49,6 @@ jobs:
             "evaluators": {
               "$evaluator_name": "$evaluator_class"
             },
-            $evaluation_parameters
             "ai_model_configuration": {
               "type": "azure_openai",
               "azure_endpoint": "${{ secrets.AZURE_OPENAI_ENDPOINT }}",
