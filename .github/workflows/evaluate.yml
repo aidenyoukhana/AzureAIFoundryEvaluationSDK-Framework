@@ -50,12 +50,9 @@ jobs:
           cat > ${{ env.GENAI_EVALS_CONFIG_PATH }} <<EOF
           {
             "data": "${{ env.GENAI_EVALS_DATA_PATH }}",
+            $column_mapping
             "evaluators": {
-              "$evaluator_name": {
-                "class": "$evaluator_class",
-                $column_mapping
-                "metrics": ["accuracy"]
-              }
+              "$evaluator_name": "$evaluator_class"
             },
             "ai_model_configuration": {
               "type": "azure_openai",
