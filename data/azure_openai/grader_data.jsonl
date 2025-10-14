@@ -1,20 +1,5 @@
-{
-  "response": "This is good.",
-  "evaluation_criteria": "Is the response positive?"
-}
-{
-  "response": "Explain AI.",
-  "evaluation_criteria": "Does the response explain AI accurately?"
-}
-{
-  "response": "The capital is Paris.",
-  "evaluation_criteria": "Is the answer correct?"
-}
-{
-  "response": "Steps: 1,2,3.",
-  "evaluation_criteria": "Are the steps clear?"
-}
-{
-  "response": "I agree.",
-  "evaluation_criteria": "Is the response agreeable?"
-}
+{"response":"This is good.","evaluation_criteria":"Is the response positive?"}
+{"response":"Explain AI.","evaluation_criteria":"Does the response explain AI accurately?"}
+{"response":"The capital is Paris.","evaluation_criteria":"Is the answer correct?"}
+{"response":"Steps: 1,2,3.","evaluation_criteria":"Are the steps clear?"}
+{"response":"I agree.","evaluation_criteria":"Is the response agreeable?"}

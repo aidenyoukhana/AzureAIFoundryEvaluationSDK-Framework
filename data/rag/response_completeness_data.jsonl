@@ -1,25 +1,5 @@
-{
-  "query": "What is AI?",
-  "response": "AI is artificial intelligence.",
-  "ground_truth": "Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems."
-}
-{
-  "query": "Explain ML.",
-  "response": "ML is machine learning.",
-  "ground_truth": "Machine learning (ML) is a type of artificial intelligence that allows software applications to become more accurate at predicting outcomes."
-}
-{
-  "query": "What is Python?",
-  "response": "Python is a programming language.",
-  "ground_truth": "Python is a high-level, interpreted programming language known for its simplicity and readability."
-}
-{
-  "query": "Describe cloud computing.",
-  "response": "Cloud computing is internet-based computing.",
-  "ground_truth": "Cloud computing delivers computing services over the internet, including servers, storage, databases, networking, and software."
-}
-{
-  "query": "What is blockchain?",
-  "response": "Blockchain is a distributed ledger.",
-  "ground_truth": "Blockchain is a distributed database or ledger that is shared among the nodes of a computer network, storing information in a way that makes it difficult to change or hack."
-}
+{"query":"What is AI?","response":"AI is artificial intelligence.","ground_truth":"Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems."}
+{"query":"Explain ML.","response":"ML is machine learning.","ground_truth":"Machine learning (ML) is a type of artificial intelligence that allows software applications to become more accurate at predicting outcomes."}
+{"query":"What is Python?","response":"Python is a programming language.","ground_truth":"Python is a high-level, interpreted programming language known for its simplicity and readability."}
+{"query":"Describe cloud computing.","response":"Cloud computing is internet-based computing.","ground_truth":"Cloud computing delivers computing services over the internet, including servers, storage, databases, networking, and software."}
+{"query":"What is blockchain?","response":"Blockchain is a distributed ledger.","ground_truth":"Blockchain is a distributed database or ledger that is shared among the nodes of a computer network, storing information in a way that makes it difficult to change or hack."}

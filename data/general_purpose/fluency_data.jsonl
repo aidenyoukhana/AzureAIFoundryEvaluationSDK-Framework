@@ -1,45 +1,5 @@
-{
-  "query": "Describe your favorite hobby.",
-  "response": "My favorite hobby is reading books, which allows me to explore new worlds and ideas.",
-  "description": {
-    "context": {
-      "system-prompt": "Provide fluent responses"
-    }
-  }
-}
-{
-  "query": "What is your dream job?",
-  "response": "My dream job is to be a software engineer working on innovative projects.",
-  "description": {
-    "context": {
-      "system-prompt": "Provide fluent responses"
-    }
-  }
-}
-{
-  "query": "Explain photosynthesis.",
-  "response": "Photosynthesis is the process by which plants convert light energy into chemical energy.",
-  "description": {
-    "context": {
-      "system-prompt": "Provide fluent responses"
-    }
-  }
-}
-{
-  "query": "How to bake a cake?",
-  "response": "To bake a cake, mix ingredients, pour into a pan, and bake at 350 degrees.",
-  "description": {
-    "context": {
-      "system-prompt": "Provide fluent responses"
-    }
-  }
-}
-{
-  "query": "What is climate change?",
-  "response": "Climate change refers to long-term shifts in temperatures and weather patterns.",
-  "description": {
-    "context": {
-      "system-prompt": "Provide fluent responses"
-    }
-  }
-}
+{"query":"Describe your favorite hobby.","response":"My favorite hobby is reading books, which allows me to explore new worlds and ideas.","description":{"context":{"system-prompt":"Provide fluent responses"}}}
+{"query":"What is your dream job?","response":"My dream job is to be a software engineer working on innovative projects.","description":{"context":{"system-prompt":"Provide fluent responses"}}}
+{"query":"Explain photosynthesis.","response":"Photosynthesis is the process by which plants convert light energy into chemical energy.","description":{"context":{"system-prompt":"Provide fluent responses"}}}
+{"query":"How to bake a cake?","response":"To bake a cake, mix ingredients, pour into a pan, and bake at 350 degrees.","description":{"context":{"system-prompt":"Provide fluent responses"}}}
+{"query":"What is climate change?","response":"Climate change refers to long-term shifts in temperatures and weather patterns.","description":{"context":{"system-prompt":"Provide fluent responses"}}}

@@ -1,45 +1,5 @@
-{
-  "query": "What is artificial intelligence?",
-  "response": "Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems.",
-  "description": {
-    "context": {
-      "system-prompt": "Provide coherent responses"
-    }
-  }
-}
-{
-  "query": "Explain machine learning.",
-  "response": "Machine learning is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed.",
-  "description": {
-    "context": {
-      "system-prompt": "Provide coherent responses"
-    }
-  }
-}
-{
-  "query": "What are the benefits of AI?",
-  "response": "AI offers benefits like automation, improved decision-making, and innovation in various fields.",
-  "description": {
-    "context": {
-      "system-prompt": "Provide coherent responses"
-    }
-  }
-}
-{
-  "query": "How does AI work?",
-  "response": "AI works by using algorithms and data to mimic human cognitive functions.",
-  "description": {
-    "context": {
-      "system-prompt": "Provide coherent responses"
-    }
-  }
-}
-{
-  "query": "What is deep learning?",
-  "response": "Deep learning is a type of machine learning that uses neural networks with many layers.",
-  "description": {
-    "context": {
-      "system-prompt": "Provide coherent responses"
-    }
-  }
-}
+{"query":"What is artificial intelligence?","response":"Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems.","description":{"context":{"system-prompt":"Provide coherent responses"}}}
+{"query":"Explain machine learning.","response":"Machine learning is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed.","description":{"context":{"system-prompt":"Provide coherent responses"}}}
+{"query":"What are the benefits of AI?","response":"AI offers benefits like automation, improved decision-making, and innovation in various fields.","description":{"context":{"system-prompt":"Provide coherent responses"}}}
+{"query":"How does AI work?","response":"AI works by using algorithms and data to mimic human cognitive functions.","description":{"context":{"system-prompt":"Provide coherent responses"}}}
+{"query":"What is deep learning?","response":"Deep learning is a type of machine learning that uses neural networks with many layers.","description":{"context":{"system-prompt":"Provide coherent responses"}}}
