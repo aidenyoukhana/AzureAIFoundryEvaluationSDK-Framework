@@ -1,4 +1,4 @@
-name: Microsoft Learn Evaluation
+name: Comprehensive Evaluation
 on:
   workflow_dispatch:
   push:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GENAI_EVALS_CONFIG_PATH: ${{ github.workspace }}/evaluate-config.json
-      GENAI_EVALS_DATA_PATH: ${{ github.workspace }}/data/microsoft_learn_evaluation/eval-input.jsonl
+      GENAI_EVALS_DATA_PATH: ${{ github.workspace }}/data/comprehensive_evaluation/eval-input.jsonl
     steps:
       - uses: actions/checkout@v4
       - uses: azure/login@v2
@@ -31,8 +31,25 @@ jobs:
           {
             "data": "${{ env.GENAI_EVALS_DATA_PATH }}",
             "evaluators": {
+              "bleu_score": "BleuScoreEvaluator",
               "coherence": "CoherenceEvaluator",
-              "fluency": "FluencyEvaluator"
+              "content_safety": "ContentSafetyEvaluator",
+              "hate_unfairness": "HateUnfairnessEvaluator",
+              "self_harm": "SelfHarmEvaluator",
+              "sexual": "SexualEvaluator",
+              "violence": "ViolenceEvaluator",
+              "f1_score": "F1ScoreEvaluator",
+              "fluency": "FluencyEvaluator",
+              "gleu_score": "GleuScoreEvaluator",
+              "groundedness": "GroundednessEvaluator",
+              "meteor_score": "MeteorScoreEvaluator",
+              "protected_material": "ProtectedMaterialEvaluator",
+              "qa": "QAEvaluator",
+              "relevance": "RelevanceEvaluator",
+              "retrieval": "RetrievalEvaluator",
+              "rouge_score": "RougeScoreEvaluator",
+              "similarity": "SimilarityEvaluator",
+              "indirect_attack": "IndirectAttackEvaluator"
             },
             "ai_model_configuration": {
               "type": "azure_openai",
