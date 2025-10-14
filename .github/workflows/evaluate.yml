@@ -31,21 +31,31 @@ jobs:
               "tenantId": "${{ secrets.AZURE_TENANT_ID }}",
               "subscriptionId": "${{ secrets.AZURE_SUBSCRIPTION_ID }}"
             }
+
       - name: Write evaluate config
         run: |
           evaluator_name="${{ matrix.evaluator.name }}"
+
           if [ "$evaluator_name" = "qa" ]; then
             evaluator_class="QAEvaluator"
+            column_mapping='"column_mapping": {"question": "input", "answer": "response", "ground_truth": "ground_truth", "context": "context"},'
           elif [ "$evaluator_name" = "coherence" ]; then
             evaluator_class="CoherenceEvaluator"
+            column_mapping=""
           elif [ "$evaluator_name" = "fluency" ]; then
             evaluator_class="FluencyEvaluator"
+            column_mapping=""
           fi
+
           cat > ${{ env.GENAI_EVALS_CONFIG_PATH }} <<EOF
           {
             "data": "${{ env.GENAI_EVALS_DATA_PATH }}",
             "evaluators": {
-              "$evaluator_name": "$evaluator_class"
+              "$evaluator_name": {
+                "class": "$evaluator_class",
+                $column_mapping
+                "metrics": ["accuracy"]
+              }
             },
             "ai_model_configuration": {
               "type": "azure_openai",
@@ -56,6 +66,7 @@ jobs:
             }
           }
           EOF
+
       - name: Run AI Evaluation
         id: run-ai-evaluation
         uses: microsoft/genai-evals@main
