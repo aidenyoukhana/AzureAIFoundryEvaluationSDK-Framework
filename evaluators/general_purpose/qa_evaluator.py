@@ -18,5 +18,5 @@ class QAEvaluator:
         )
         self.evaluator = AzureQAEvaluator(model_config=model_config)
 
-    def evaluate(self, query, response, context):
-        return self.evaluator(query=query, response=response, ground_truth=response, context=context)
+    def evaluate(self, question, answer, context, ground_truth):
+        return self.evaluator(query=question, response=answer, ground_truth=ground_truth, context=context)
