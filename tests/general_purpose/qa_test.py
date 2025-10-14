@@ -17,7 +17,7 @@ def test_qa_evaluator():
         for line in f:
             data = json.loads(line.strip())
             result = evaluator.evaluate(
-                data["question"], data["answer"], data.get("context")
+                data["query"], data["response"], data.get("context")
             )
-            print(json.dumps({"question": data["question"], "answer": data["answer"], "context": data.get("context"), "result": result}, indent=2))
+            print(json.dumps({"query": data["query"], "response": data["response"], "context": data.get("context"), "result": result}, indent=2))
             assert result is not None
