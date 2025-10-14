@@ -34,20 +34,11 @@ jobs:
 
       - name: Write evaluate config
         run: |
-          evaluator_name="${{ matrix.evaluator.name }}"
-          if [ "$evaluator_name" = "qa" ]; then
-            evaluator_class="QAEvaluator"
-          elif [ "$evaluator_name" = "coherence" ]; then
-            evaluator_class="CoherenceEvaluator"
-          elif [ "$evaluator_name" = "fluency" ]; then
-            evaluator_class="FluencyEvaluator"
-          fi
-
           cat > ${{ env.GENAI_EVALS_CONFIG_PATH }} <<EOF
           {
             "data": "${{ env.GENAI_EVALS_DATA_PATH }}",
             "evaluators": {
-              "$evaluator_name": "$evaluator_class"
+              "qa": "QAEvaluator"
             },
             "ai_model_configuration": {
               "type": "azure_openai",
