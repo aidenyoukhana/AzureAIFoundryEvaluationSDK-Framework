@@ -38,22 +38,22 @@ jobs:
 
           if [ "$evaluator_name" = "qa" ]; then
             evaluator_class="QAEvaluator"
-            column_mapping='"column_mapping": {"question": "input", "answer": "response", "ground_truth": "ground_truth", "context": "context"},'
+            evaluation_parameters='"evaluation_parameters": {"column_mapping": {"question": "input", "answer": "response", "ground_truth": "ground_truth", "context": "context"}},'
           elif [ "$evaluator_name" = "coherence" ]; then
             evaluator_class="CoherenceEvaluator"
-            column_mapping=""
+            evaluation_parameters=""
           elif [ "$evaluator_name" = "fluency" ]; then
             evaluator_class="FluencyEvaluator"
-            column_mapping=""
+            evaluation_parameters=""
           fi
 
           cat > ${{ env.GENAI_EVALS_CONFIG_PATH }} <<EOF
           {
             "data": "${{ env.GENAI_EVALS_DATA_PATH }}",
-            $column_mapping
             "evaluators": {
               "$evaluator_name": "$evaluator_class"
             },
+            $evaluation_parameters
             "ai_model_configuration": {
               "type": "azure_openai",
               "azure_endpoint": "${{ secrets.AZURE_OPENAI_ENDPOINT }}",
