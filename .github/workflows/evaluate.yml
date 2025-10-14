@@ -23,7 +23,7 @@ jobs:
             data: fluency_data.jsonl
     env:
       GENAI_EVALS_CONFIG_PATH: ${{ github.workspace }}/evaluate-config-${{ matrix.evaluator.name }}.json
-      GENAI_EVALS_DATA_PATH: ${{ github.workspace }}/data/genai_evals_format/${{ matrix.evaluator.data }}
+      GENAI_EVALS_DATA_PATH: ${{ github.workspace }}/data/general_purpose/${{ matrix.evaluator.data }}
     steps:
       - uses: actions/checkout@v4
       - uses: azure/login@v2
