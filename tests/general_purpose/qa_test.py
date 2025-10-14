@@ -12,13 +12,13 @@ def test_qa_evaluator():
         for line in f:
             data = json.loads(line.strip())
             result = evaluator.evaluate(
-                query=data["input"],
+                query=data["query"],
                 response=data["response"],
                 context=data["context"],
                 ground_truth=data["ground_truth"]
             )
             print(json.dumps({
-                "input": data["input"],
+                "query": data["query"],
                 "response": data["response"],
                 "context": data["context"],
                 "ground_truth": data["ground_truth"],
