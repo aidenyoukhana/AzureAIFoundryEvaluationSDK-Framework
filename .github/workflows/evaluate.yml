@@ -12,9 +12,18 @@ permissions:
 jobs:
   evaluate:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        evaluator: 
+          - name: qa
+            data: qa_data.jsonl
+          - name: coherence
+            data: coherence_data.jsonl
+          - name: fluency
+            data: fluency_data.jsonl
     env:
-      GENAI_EVALS_CONFIG_PATH: ${{ github.workspace }}/evaluate-config.json
-      GENAI_EVALS_DATA_PATH: ${{ github.workspace }}/data/general_purpose/qa_data.jsonl
+      GENAI_EVALS_CONFIG_PATH: ${{ github.workspace }}/evaluate-config-${{ matrix.evaluator.name }}.json
+      GENAI_EVALS_DATA_PATH: ${{ github.workspace }}/data/general_purpose/${{ matrix.evaluator.data }}
     steps:
       - uses: actions/checkout@v4
       - uses: azure/login@v2
@@ -28,13 +37,19 @@ jobs:
             }
       - name: Write evaluate config
         run: |
+          evaluator_name="${{ matrix.evaluator.name }}"
+          if [ "$evaluator_name" = "qa" ]; then
+            evaluator_class="QAEvaluator"
+          elif [ "$evaluator_name" = "coherence" ]; then
+            evaluator_class="CoherenceEvaluator"
+          elif [ "$evaluator_name" = "fluency" ]; then
+            evaluator_class="FluencyEvaluator"
+          fi
           cat > ${{ env.GENAI_EVALS_CONFIG_PATH }} <<EOF
           {
             "data": "${{ env.GENAI_EVALS_DATA_PATH }}",
             "evaluators": {
-              "qa": "QAEvaluator",
-              "coherence": "CoherenceEvaluator",
-              "fluency": "FluencyEvaluator"
+              "$evaluator_name": "$evaluator_class"
             },
             "ai_model_configuration": {
               "type": "azure_openai",
