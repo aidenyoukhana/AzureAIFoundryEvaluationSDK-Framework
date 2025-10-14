@@ -33,23 +33,16 @@ jobs:
             "evaluators": {
               "bleu_score": "BleuScoreEvaluator",
               "coherence": "CoherenceEvaluator",
-              "content_safety": "ContentSafetyEvaluator",
-              "hate_unfairness": "HateUnfairnessEvaluator",
-              "self_harm": "SelfHarmEvaluator",
-              "sexual": "SexualEvaluator",
-              "violence": "ViolenceEvaluator",
               "f1_score": "F1ScoreEvaluator",
               "fluency": "FluencyEvaluator",
               "gleu_score": "GleuScoreEvaluator",
               "groundedness": "GroundednessEvaluator",
               "meteor_score": "MeteorScoreEvaluator",
-              "protected_material": "ProtectedMaterialEvaluator",
               "qa": "QAEvaluator",
               "relevance": "RelevanceEvaluator",
               "retrieval": "RetrievalEvaluator",
               "rouge_score": "RougeScoreEvaluator",
-              "similarity": "SimilarityEvaluator",
-              "indirect_attack": "IndirectAttackEvaluator"
+              "similarity": "SimilarityEvaluator"
             },
             "ai_model_configuration": {
               "type": "azure_openai",
