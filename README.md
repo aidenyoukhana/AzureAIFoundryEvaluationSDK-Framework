@@ -100,7 +100,7 @@ Add the following **8 secrets**:
 |------------|-------------|---------------|
 | `AZURE_CLIENT_ID` | Application (client) ID from your App Registration | `12345678-1234-1234-1234-123456789abc` |
 | `AZURE_CLIENT_SECRET` | Client secret value from your App Registration | `abc123~defghijklmnop` |
-| `AZURE_TENANT_ID` | Directory (tenant) ID from your App Registration | `87654321-4321-4321-4321-cba987654321` |
+| `AZURE_TENANT_ID` | Directory (tenant) ID from your App Registration | `12345678-1234-1234-1234-123456789abc` |
 | `AZURE_SUBSCRIPTION_ID` | Your Azure subscription ID | `12345678-1234-1234-1234-123456789abc` |
 | `AZURE_OPENAI_API_KEY` | API key from your Azure AI Services resource | Found in Azure Portal under your AI Services resource → Keys and Endpoint |
 | `AZURE_OPENAI_API_VERSION` | Azure OpenAI API version | `2024-12-01-preview` |
