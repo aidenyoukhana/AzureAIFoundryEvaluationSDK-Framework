@@ -2,6 +2,11 @@
 
 This is a Python implementation of the Azure AI Foundry Evaluation SDK, organized into separate folders for different evaluator groups.
 
+TODO:
+as part of the bicep script for the infra, can we create an app registeration, create a secret inside that app registeration, then copy the secret and make it a part of the .env please whatever that's called, Azure_Client_Secret or whatever the correct name is. Also, go to the resource group that we created, go to the hub that we created, and under IAM, add a new role assignment, it's the "Azure AI Developer" one. For the members, it's going to be that app reg that we created, and the expiring time in 2 years please.
+
+Also, extract needed info from the app reg and insert it in the .env there are lots of info we might need for the pipeline to run on github. are you able to do that? recite what I want done please.
+
 ## Getting Started
 
 ### Step 1: Deploy Azure Resources
