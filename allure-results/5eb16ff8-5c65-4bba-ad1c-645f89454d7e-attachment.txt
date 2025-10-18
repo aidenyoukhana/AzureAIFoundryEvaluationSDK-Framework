@@ -1,0 +1,55 @@
+{
+  "query": "What is artificial intelligence?",
+  "response": "Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems.",
+  "result": {
+    "coherence": 4.0,
+    "gpt_coherence": 4.0,
+    "coherence_reason": "The RESPONSE is coherent and directly addresses the QUERY with a clear and logical explanation. It is well-organized and easy to understand, meeting the criteria for a coherent response.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3
+  }
+}
+{
+  "query": "Explain machine learning.",
+  "response": "Machine learning is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed.",
+  "result": {
+    "coherence": 4.0,
+    "gpt_coherence": 4.0,
+    "coherence_reason": "The response is coherent and directly addresses the question with a clear and logical explanation. However, it is brief and does not provide additional context or depth, which prevents it from achieving the highest level of coherence.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3
+  }
+}
+{
+  "query": "What are the benefits of AI?",
+  "response": "AI offers benefits like automation, improved decision-making, and innovation in various fields.",
+  "result": {
+    "coherence": 4.0,
+    "gpt_coherence": 4.0,
+    "coherence_reason": "The RESPONSE is coherent and directly addresses the QUERY with relevant points. However, it is concise and lacks detailed explanation or transitions, which prevents it from achieving a higher score.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3
+  }
+}
+{
+  "query": "How does AI work?",
+  "response": "AI works by using algorithms and data to mimic human cognitive functions.",
+  "result": {
+    "coherence": 3.0,
+    "gpt_coherence": 3.0,
+    "coherence_reason": "The RESPONSE is coherent and directly addresses the QUERY, but it is too brief and lacks detailed explanation or logical expansion of ideas, which prevents it from achieving a higher score.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3
+  }
+}
+{
+  "query": "What is deep learning?",
+  "response": "Deep learning is a type of machine learning that uses neural networks with many layers.",
+  "result": {
+    "coherence": 4.0,
+    "gpt_coherence": 4.0,
+    "coherence_reason": "The RESPONSE is coherent and effectively addresses the QUERY with a clear and logical explanation. It flows smoothly and is easy to understand, meeting the criteria for a coherent response.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "response": "AI is artificial intelligence.",
+  "context": "Artificial intelligence is the simulation of human intelligence processes by machines.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but lacks essential details from the CONTEXT, making it incomplete and missing critical information.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "ML is machine learning.",
+  "context": "Machine learning is a subset of AI that enables systems to learn from data.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but incomplete, as it does not include essential details from the CONTEXT, such as machine learning being a subset of AI and its function of enabling systems to learn from data.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "Python is a programming language.",
+  "context": "Python is a high-level language used for software development.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but does not include all the critical details provided in the CONTEXT, such as Python being a high-level language and its use in software development.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "Cloud computing delivers services over the internet.",
+  "context": "Cloud computing provides on-demand computing resources.",
+  "result": {
+    "groundedness": 3.0,
+    "gpt_groundedness": 3.0,
+    "groundedness_reason": "The RESPONSE is accurate in relation to the CONTEXT but introduces an unsupported addition (\"delivers services over the internet\") that is not explicitly mentioned in the CONTEXT.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "Blockchain is a distributed ledger.",
+  "context": "Blockchain technology ensures secure and transparent transactions.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but does not include essential information from the CONTEXT about secure and transparent transactions, which are the main points.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}

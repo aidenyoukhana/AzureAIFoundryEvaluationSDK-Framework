@@ -1,0 +1,9 @@
+{
+  "query": "What are the benefits of AI?",
+  "response": "AI offers benefits like automation, improved decision-making, and innovation in various fields.",
+  "description": {
+    "context": {
+      "system-prompt": "Provide coherent responses"
+    }
+  }
+}

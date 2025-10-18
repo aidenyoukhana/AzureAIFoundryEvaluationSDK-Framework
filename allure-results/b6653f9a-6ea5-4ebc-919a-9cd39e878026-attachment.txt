@@ -1,0 +1,55 @@
+{
+  "query": "Book a flight to Paris",
+  "response": "Sure, I'll help you book a flight to Paris.",
+  "intent": "booking",
+  "result": {
+    "intent_resolution": 2.0,
+    "intent_resolution_result": "fail",
+    "intent_resolution_threshold": 3,
+    "intent_resolution_reason": "User wanted to book a flight to Paris. Agent acknowledged the request but did not take any action or provide further steps to complete the booking, leaving the intent unresolved."
+  }
+}
+{
+  "query": "What's the weather?",
+  "response": "Let me check the weather for you.",
+  "intent": "information",
+  "result": {
+    "intent_resolution": 2.0,
+    "intent_resolution_result": "fail",
+    "intent_resolution_threshold": 3,
+    "intent_resolution_reason": "User wanted to know the weather. Agent acknowledged the request but did not provide any weather information or take action to resolve the intent, leaving the request unfulfilled."
+  }
+}
+{
+  "query": "Order pizza",
+  "response": "I'd be happy to help with ordering pizza.",
+  "intent": "ordering",
+  "result": {
+    "intent_resolution": 2.0,
+    "intent_resolution_result": "fail",
+    "intent_resolution_threshold": 3,
+    "intent_resolution_reason": "User wanted to order pizza. The agent expressed willingness to help but did not provide any actionable steps or initiate the ordering process, leaving the intent unresolved."
+  }
+}
+{
+  "query": "Tell a joke",
+  "response": "Here's a joke: Why did the chicken cross the road?",
+  "intent": "entertainment",
+  "result": {
+    "intent_resolution": 2.0,
+    "intent_resolution_result": "fail",
+    "intent_resolution_threshold": 3,
+    "intent_resolution_reason": "User wanted to hear a joke. The agent started a joke but did not complete it, leaving the intent unresolved and the response incomplete, which is insufficient to satisfy the user's request."
+  }
+}
+{
+  "query": "Set a reminder",
+  "response": "I'll set a reminder for you.",
+  "intent": "task_management",
+  "result": {
+    "intent_resolution": 3.0,
+    "intent_resolution_result": "pass",
+    "intent_resolution_threshold": 3,
+    "intent_resolution_reason": "User requested to set a reminder. Agent acknowledged the request but did not confirm the details or provide any specifics about the reminder, leaving the resolution vague and incomplete."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "response": "AI is artificial intelligence.",
+  "context": "Artificial intelligence is the simulation of human intelligence processes by machines.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but lacks essential details from the CONTEXT, making it incomplete and missing critical information.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "ML is machine learning.",
+  "context": "Machine learning is a subset of AI that enables systems to learn from data.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but omits critical information from the CONTEXT, making it incomplete.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "Python is a programming language.",
+  "context": "Python is a high-level language used for software development.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but does not include all the critical details provided in the CONTEXT, making it incomplete.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "Cloud computing delivers services over the internet.",
+  "context": "Cloud computing provides on-demand computing resources.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but does not fully align with the specific detail provided in the CONTEXT, omitting the critical point about \"on-demand computing resources.\"",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "Blockchain is a distributed ledger.",
+  "context": "Blockchain technology ensures secure and transparent transactions.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but incomplete, as it does not include the essential details about secure and transparent transactions mentioned in the CONTEXT.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}

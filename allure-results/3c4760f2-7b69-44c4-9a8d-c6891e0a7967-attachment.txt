@@ -1,0 +1,70 @@
+{
+  "query": "What's the weather today?",
+  "response": "I'll check the weather for you.",
+  "tool_calls": [
+    "get_weather"
+  ],
+  "result": {
+    "tool_call_accuracy": "not applicable",
+    "tool_call_accuracy_result": "pass",
+    "tool_call_accuracy_threshold": 3,
+    "tool_call_accuracy_reason": "Tool definitions must be provided.",
+    "details": {}
+  }
+}
+{
+  "query": "Book a table",
+  "response": "Let me book a table for you.",
+  "tool_calls": [
+    "book_restaurant"
+  ],
+  "result": {
+    "tool_call_accuracy": "not applicable",
+    "tool_call_accuracy_result": "pass",
+    "tool_call_accuracy_threshold": 3,
+    "tool_call_accuracy_reason": "Tool definitions must be provided.",
+    "details": {}
+  }
+}
+{
+  "query": "Send an email",
+  "response": "I'll send the email.",
+  "tool_calls": [
+    "send_email"
+  ],
+  "result": {
+    "tool_call_accuracy": "not applicable",
+    "tool_call_accuracy_result": "pass",
+    "tool_call_accuracy_threshold": 3,
+    "tool_call_accuracy_reason": "Tool definitions must be provided.",
+    "details": {}
+  }
+}
+{
+  "query": "Calculate 2+2",
+  "response": "The answer is 4.",
+  "tool_calls": [
+    "calculate"
+  ],
+  "result": {
+    "tool_call_accuracy": "not applicable",
+    "tool_call_accuracy_result": "pass",
+    "tool_call_accuracy_threshold": 3,
+    "tool_call_accuracy_reason": "Tool definitions must be provided.",
+    "details": {}
+  }
+}
+{
+  "query": "Translate to French",
+  "response": "Voici la traduction.",
+  "tool_calls": [
+    "translate"
+  ],
+  "result": {
+    "tool_call_accuracy": "not applicable",
+    "tool_call_accuracy_result": "pass",
+    "tool_call_accuracy_threshold": 3,
+    "tool_call_accuracy_reason": "Tool definitions must be provided.",
+    "details": {}
+  }
+}

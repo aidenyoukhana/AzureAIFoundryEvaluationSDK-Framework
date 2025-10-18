@@ -1,0 +1,50 @@
+{
+  "data": {
+    "response": "AI is smart.",
+    "ground_truth": "Artificial intelligence is intelligent."
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAITextSimilarityGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "ML learns.",
+    "ground_truth": "Machine learning involves learning from data."
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAITextSimilarityGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "Python codes.",
+    "ground_truth": "Python is a programming language."
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAITextSimilarityGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "Cloud stores data.",
+    "ground_truth": "Cloud computing provides storage."
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAITextSimilarityGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "Blockchain secures.",
+    "ground_truth": "Blockchain ensures security."
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAITextSimilarityGrader' object is not callable"
+  }
+}
