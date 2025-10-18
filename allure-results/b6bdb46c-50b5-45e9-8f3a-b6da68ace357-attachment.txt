@@ -1,0 +1,3 @@
+[33mWARNING [0m azure.ai.evaluation._common._experimental:_experimental.py:79 Class IntentResolutionEvaluator: This is an experimental class, and may change at any time. Please see https://aka.ms/azuremlexperimental for more information.
+[33mWARNING [0m azure.ai.evaluation._evaluators._intent_resolution._intent_resolution:utils.py:575 Conversation history could not be parsed, falling back to original query: Book a flight to Paris
+[33mWARNING [0m azure.ai.evaluation._evaluators._intent_resolution._intent_resolution:utils.py:629 Empty agent response extracted, likely due to input schema change. Falling back to using the original response: Sure, I'll help you book a flight to Paris.

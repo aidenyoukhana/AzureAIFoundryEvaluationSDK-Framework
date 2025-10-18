@@ -1,0 +1,3 @@
+[33mWARNING [0m azure.ai.evaluation._common._experimental:_experimental.py:79 Class TaskAdherenceEvaluator: This is an experimental class, and may change at any time. Please see https://aka.ms/azuremlexperimental for more information.
+[33mWARNING [0m azure.ai.evaluation._evaluators._task_adherence._task_adherence:utils.py:575 Conversation history could not be parsed, falling back to original query: Summarize the article
+[33mWARNING [0m azure.ai.evaluation._evaluators._task_adherence._task_adherence:utils.py:638 Agent response could not be parsed, falling back to original response: The article discusses the benefits of AI in healthcare.

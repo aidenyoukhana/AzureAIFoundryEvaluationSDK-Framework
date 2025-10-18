@@ -1,0 +1,50 @@
+{
+  "data": {
+    "response": "The answer is 42.",
+    "check_string": "42"
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAIStringCheckGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "Python is great.",
+    "check_string": "Python"
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAIStringCheckGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "AI is the future.",
+    "check_string": "future"
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAIStringCheckGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "Hello world!",
+    "check_string": "Hello"
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAIStringCheckGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "Machine learning rocks.",
+    "check_string": "learning"
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAIStringCheckGrader' object is not callable"
+  }
+}

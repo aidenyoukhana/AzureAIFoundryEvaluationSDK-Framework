@@ -1,0 +1,17 @@
+2025-10-17 17:50:14 -0700 8488689856 azure.ai.evaluation._legacy.prompty._prompty ERROR    [0/10] AsyncAzureOpenAI request failed. NotFoundError: Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}
+Traceback (most recent call last):
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/azure/ai/evaluation/_legacy/prompty/_prompty.py", line 382, in _send_with_retries
+    response = await client.chat.completions.create(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/resources/chat/completions/completions.py", line 2603, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<48 lines>...
+    )
+    ^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'code': 'DeploymentNotFound', 'message': 'The API deployment for this resource does not exist. If you created the deployment within the last 5 minutes, please wait a moment and try again.'}}

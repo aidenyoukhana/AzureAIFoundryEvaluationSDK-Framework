@@ -1,0 +1,75 @@
+{
+  "response": "AI is artificial intelligence.",
+  "ground_truth": "Artificial intelligence is the simulation of human intelligence processes.",
+  "result": {
+    "rouge_precision": 0.75,
+    "rouge_recall": 0.3333333333333333,
+    "rouge_f1_score": 0.46153846153846156,
+    "rouge_precision_result": "pass",
+    "rouge_recall_result": "fail",
+    "rouge_f1_score_result": "fail",
+    "rouge_precision_threshold": 0.5,
+    "rouge_recall_threshold": 0.5,
+    "rouge_f1_score_threshold": 0.5
+  }
+}
+{
+  "response": "ML is machine learning.",
+  "ground_truth": "Machine learning is a method of data analysis that automates analytical model building.",
+  "result": {
+    "rouge_precision": 0.75,
+    "rouge_recall": 0.23076923076923078,
+    "rouge_f1_score": 0.3529411764705882,
+    "rouge_precision_result": "pass",
+    "rouge_recall_result": "fail",
+    "rouge_f1_score_result": "fail",
+    "rouge_precision_threshold": 0.5,
+    "rouge_recall_threshold": 0.5,
+    "rouge_f1_score_threshold": 0.5
+  }
+}
+{
+  "response": "Python is a programming language.",
+  "ground_truth": "Python is a high-level programming language known for its simplicity.",
+  "result": {
+    "rouge_precision": 1.0,
+    "rouge_recall": 0.45454545454545453,
+    "rouge_f1_score": 0.625,
+    "rouge_precision_result": "pass",
+    "rouge_recall_result": "fail",
+    "rouge_f1_score_result": "pass",
+    "rouge_precision_threshold": 0.5,
+    "rouge_recall_threshold": 0.5,
+    "rouge_f1_score_threshold": 0.5
+  }
+}
+{
+  "response": "Cloud computing is internet-based computing.",
+  "ground_truth": "Cloud computing delivers computing services over the internet.",
+  "result": {
+    "rouge_precision": 0.6666666666666666,
+    "rouge_recall": 0.5,
+    "rouge_f1_score": 0.5714285714285715,
+    "rouge_precision_result": "pass",
+    "rouge_recall_result": "pass",
+    "rouge_f1_score_result": "pass",
+    "rouge_precision_threshold": 0.5,
+    "rouge_recall_threshold": 0.5,
+    "rouge_f1_score_threshold": 0.5
+  }
+}
+{
+  "response": "Blockchain is a distributed ledger.",
+  "ground_truth": "Blockchain is a system for recording information in a way that makes it difficult to change.",
+  "result": {
+    "rouge_precision": 0.6,
+    "rouge_recall": 0.1875,
+    "rouge_f1_score": 0.2857142857142857,
+    "rouge_precision_result": "pass",
+    "rouge_recall_result": "fail",
+    "rouge_f1_score_result": "fail",
+    "rouge_precision_threshold": 0.5,
+    "rouge_recall_threshold": 0.5,
+    "rouge_f1_score_threshold": 0.5
+  }
+}
