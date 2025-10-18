@@ -1,0 +1,50 @@
+{
+  "data": {
+    "response": "This is good.",
+    "evaluation_criteria": "Is the response positive?"
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAIPythonGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "Explain AI.",
+    "evaluation_criteria": "Does the response explain AI accurately?"
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAIPythonGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "The capital is Paris.",
+    "evaluation_criteria": "Is the answer correct?"
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAIPythonGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "Steps: 1,2,3.",
+    "evaluation_criteria": "Are the steps clear?"
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAIPythonGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "I agree.",
+    "evaluation_criteria": "Is the response agreeable?"
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAIPythonGrader' object is not callable"
+  }
+}

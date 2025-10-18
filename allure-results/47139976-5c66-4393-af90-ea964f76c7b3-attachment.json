@@ -1,0 +1,7 @@
+{
+  "coherence": 3.0,
+  "gpt_coherence": 3.0,
+  "coherence_reason": "The RESPONSE partially addresses the QUERY with relevant information but lacks depth and detailed explanation, making the logical flow incomplete.",
+  "coherence_result": "pass",
+  "coherence_threshold": 3
+}

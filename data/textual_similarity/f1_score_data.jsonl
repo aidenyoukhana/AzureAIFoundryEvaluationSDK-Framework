@@ -1,0 +1,5 @@
+{"response":"AI is artificial intelligence.","ground_truth":"Artificial intelligence is the simulation of human intelligence processes."}
+{"response":"ML is machine learning.","ground_truth":"Machine learning is a method of data analysis that automates analytical model building."}
+{"response":"Python is a programming language.","ground_truth":"Python is a high-level programming language known for its simplicity."}
+{"response":"Cloud computing is internet-based computing.","ground_truth":"Cloud computing delivers computing services over the internet."}
+{"response":"Blockchain is a distributed ledger.","ground_truth":"Blockchain is a system for recording information in a way that makes it difficult to change."}

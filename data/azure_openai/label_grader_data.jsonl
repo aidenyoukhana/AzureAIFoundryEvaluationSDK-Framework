@@ -1,0 +1,5 @@
+{"response":"This product is amazing!","labels":["positive"]}
+{"response":"I hate this service.","labels":["negative"]}
+{"response":"It's okay, nothing special.","labels":["neutral"]}
+{"response":"Fantastic quality!","labels":["positive"]}
+{"response":"Worst experience ever.","labels":["negative"]}

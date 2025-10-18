@@ -1,0 +1,55 @@
+{
+  "query": "Summarize the article",
+  "response": "The article discusses the benefits of AI in healthcare.",
+  "task": "summarize",
+  "result": {
+    "task_adherence": 3.0,
+    "task_adherence_result": "pass",
+    "task_adherence_threshold": 3,
+    "task_adherence_reason": "The assistant provided a vague summary of the article but failed to adequately fulfill the user's request for a detailed summary. No tools were required, and no system constraints were violated."
+  }
+}
+{
+  "query": "Explain this concept",
+  "response": "This concept refers to machine learning algorithms.",
+  "task": "explain",
+  "result": {
+    "task_adherence": 2.0,
+    "task_adherence_result": "fail",
+    "task_adherence_threshold": 3,
+    "task_adherence_reason": "The assistant provided a vague and incomplete response, failing to explain the concept as requested by the user. No tools were required, but the task was not fulfilled."
+  }
+}
+{
+  "query": "List the steps",
+  "response": "Step 1: Prepare data. Step 2: Train model.",
+  "task": "list_steps",
+  "result": {
+    "task_adherence": 2.0,
+    "task_adherence_result": "fail",
+    "task_adherence_threshold": 3,
+    "task_adherence_reason": "The assistant provided a vague response without clarifying the task or addressing the user's needs. It failed to specify details or steps for data preparation and model training."
+  }
+}
+{
+  "query": "Compare A and B",
+  "response": "A is faster, B is more accurate.",
+  "task": "compare",
+  "result": {
+    "task_adherence": 3.0,
+    "task_adherence_result": "pass",
+    "task_adherence_threshold": 3,
+    "task_adherence_reason": "The assistant provided a brief comparison of A and B but did not elaborate or justify its claims, leaving the user request partially fulfilled."
+  }
+}
+{
+  "query": "Give examples",
+  "response": "Example 1: Chatbots. Example 2: Recommendation systems.",
+  "task": "give_examples",
+  "result": {
+    "task_adherence": 3.0,
+    "task_adherence_result": "pass",
+    "task_adherence_threshold": 3,
+    "task_adherence_reason": "The assistant provided examples of AI applications but did not clarify or elaborate on the topic as requested. The response was minimal and lacked depth, leaving the user\u2019s need partially unmet."
+  }
+}

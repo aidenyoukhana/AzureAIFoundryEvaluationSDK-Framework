@@ -1,0 +1,60 @@
+{
+  "data": {
+    "response": "This product is amazing!",
+    "labels": [
+      "positive"
+    ]
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAILabelGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "I hate this service.",
+    "labels": [
+      "negative"
+    ]
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAILabelGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "It's okay, nothing special.",
+    "labels": [
+      "neutral"
+    ]
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAILabelGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "Fantastic quality!",
+    "labels": [
+      "positive"
+    ]
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAILabelGrader' object is not callable"
+  }
+}
+{
+  "data": {
+    "response": "Worst experience ever.",
+    "labels": [
+      "negative"
+    ]
+  },
+  "result": {
+    "result": "pass",
+    "error": "'AzureOpenAILabelGrader' object is not callable"
+  }
+}

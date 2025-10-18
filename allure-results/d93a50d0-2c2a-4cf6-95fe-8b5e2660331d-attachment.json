@@ -1,0 +1,9 @@
+{
+  "query": "What is artificial intelligence?",
+  "response": "Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems.",
+  "description": {
+    "context": {
+      "system-prompt": "Provide coherent responses"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+2025-10-17 12:01:41 -0700 8488689856 azure.ai.evaluation._legacy.prompty._prompty WARNING  [0/10] AsyncAzureOpenAI request failed. RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 38 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}. Retrying in 38.000000 seconds.
+Traceback (most recent call last):
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/azure/ai/evaluation/_legacy/prompty/_prompty.py", line 382, in _send_with_retries
+    response = await client.chat.completions.create(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/resources/chat/completions/completions.py", line 2603, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<48 lines>...
+    )
+    ^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 38 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}
+{
+  "query": "What is artificial intelligence?",
+  "response": "Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems.",
+  "result": {
+    "coherence": 4.0,
+    "gpt_coherence": 4.0,
+    "coherence_reason": "The RESPONSE is coherent and directly addresses the QUERY with a clear and logical definition, but it is brief and does not provide further elaboration or transitions to make it highly coherent.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3
+  }
+}
+2025-10-17 12:02:22 -0700 8488689856 azure.ai.evaluation._legacy.prompty._prompty WARNING  [0/10] AsyncAzureOpenAI request failed. RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 11 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}. Retrying in 11.000000 seconds.
+Traceback (most recent call last):
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/azure/ai/evaluation/_legacy/prompty/_prompty.py", line 382, in _send_with_retries
+    response = await client.chat.completions.create(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/resources/chat/completions/completions.py", line 2603, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<48 lines>...
+    )
+    ^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 11 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}
+{
+  "query": "Explain machine learning.",
+  "response": "Machine learning is a subset of AI that enables systems to learn and improve from experience without being explicitly programmed.",
+  "result": {
+    "coherence": 4.0,
+    "gpt_coherence": 4.0,
+    "coherence_reason": "The RESPONSE is coherent and directly answers the QUERY with a clear and logical statement, but it is brief and does not provide additional context or depth.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3
+  }
+}
+{
+  "query": "What are the benefits of AI?",
+  "response": "AI offers benefits like automation, improved decision-making, and innovation in various fields.",
+  "result": {
+    "coherence": 4.0,
+    "gpt_coherence": 4.0,
+    "coherence_reason": "The RESPONSE is coherent and directly addresses the QUERY, but it is brief and lacks depth or detailed connections between the ideas presented.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3
+  }
+}
+2025-10-17 12:02:37 -0700 8488689856 azure.ai.evaluation._legacy.prompty._prompty WARNING  [0/10] AsyncAzureOpenAI request failed. RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 43 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}. Retrying in 43.000000 seconds.
+Traceback (most recent call last):
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/azure/ai/evaluation/_legacy/prompty/_prompty.py", line 382, in _send_with_retries
+    response = await client.chat.completions.create(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/resources/chat/completions/completions.py", line 2603, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<48 lines>...
+    )
+    ^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 43 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}
+{
+  "query": "How does AI work?",
+  "response": "AI works by using algorithms and data to mimic human cognitive functions.",
+  "result": {
+    "coherence": 3.0,
+    "gpt_coherence": 3.0,
+    "coherence_reason": "The RESPONSE is coherent but overly simplistic, providing only a surface-level answer without sufficient detail or elaboration. It partially addresses the QUERY but lacks depth and logical flow to be rated higher.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3
+  }
+}
+{
+  "query": "What is deep learning?",
+  "response": "Deep learning is a type of machine learning that uses neural networks with many layers.",
+  "result": {
+    "coherence": 4.0,
+    "gpt_coherence": 4.0,
+    "coherence_reason": "The RESPONSE is coherent and directly addresses the QUERY, but it is too brief and lacks depth or elaboration to achieve a higher score.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3
+  }
+}

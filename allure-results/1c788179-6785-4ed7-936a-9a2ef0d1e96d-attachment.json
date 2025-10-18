@@ -1,0 +1,7 @@
+{
+  "coherence": 4.0,
+  "gpt_coherence": 4.0,
+  "coherence_reason": "The RESPONSE is coherent and directly addresses the QUERY with a clear and logical definition, but it is brief and does not provide further elaboration or transitions to make it highly coherent.",
+  "coherence_result": "pass",
+  "coherence_threshold": 3
+}

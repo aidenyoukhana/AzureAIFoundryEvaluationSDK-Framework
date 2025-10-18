@@ -1,0 +1,11 @@
+[33mWARNING [0m azure.ai.evaluation._common._experimental:_experimental.py:79 Class TaskAdherenceEvaluator: This is an experimental class, and may change at any time. Please see https://aka.ms/azuremlexperimental for more information.
+[33mWARNING [0m azure.ai.evaluation._evaluators._task_adherence._task_adherence:utils.py:575 Conversation history could not be parsed, falling back to original query: Summarize the article
+[33mWARNING [0m azure.ai.evaluation._evaluators._task_adherence._task_adherence:utils.py:638 Agent response could not be parsed, falling back to original response: The article discusses the benefits of AI in healthcare.
+[33mWARNING [0m azure.ai.evaluation._evaluators._task_adherence._task_adherence:utils.py:575 Conversation history could not be parsed, falling back to original query: Explain this concept
+[33mWARNING [0m azure.ai.evaluation._evaluators._task_adherence._task_adherence:utils.py:638 Agent response could not be parsed, falling back to original response: This concept refers to machine learning algorithms.
+[33mWARNING [0m azure.ai.evaluation._evaluators._task_adherence._task_adherence:utils.py:575 Conversation history could not be parsed, falling back to original query: List the steps
+[33mWARNING [0m azure.ai.evaluation._evaluators._task_adherence._task_adherence:utils.py:638 Agent response could not be parsed, falling back to original response: Step 1: Prepare data. Step 2: Train model.
+[33mWARNING [0m azure.ai.evaluation._evaluators._task_adherence._task_adherence:utils.py:575 Conversation history could not be parsed, falling back to original query: Compare A and B
+[33mWARNING [0m azure.ai.evaluation._evaluators._task_adherence._task_adherence:utils.py:638 Agent response could not be parsed, falling back to original response: A is faster, B is more accurate.
+[33mWARNING [0m azure.ai.evaluation._evaluators._task_adherence._task_adherence:utils.py:575 Conversation history could not be parsed, falling back to original query: Give examples
+[33mWARNING [0m azure.ai.evaluation._evaluators._task_adherence._task_adherence:utils.py:638 Agent response could not be parsed, falling back to original response: Example 1: Chatbots. Example 2: Recommendation systems.

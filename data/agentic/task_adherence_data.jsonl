@@ -1,0 +1,5 @@
+{"query":"Summarize the article","response":"The article discusses the benefits of AI in healthcare.","task":"summarize"}
+{"query":"Explain this concept","response":"This concept refers to machine learning algorithms.","task":"explain"}
+{"query":"List the steps","response":"Step 1: Prepare data. Step 2: Train model.","task":"list_steps"}
+{"query":"Compare A and B","response":"A is faster, B is more accurate.","task":"compare"}
+{"query":"Give examples","response":"Example 1: Chatbots. Example 2: Recommendation systems.","task":"give_examples"}

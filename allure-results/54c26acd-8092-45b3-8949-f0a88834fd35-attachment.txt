@@ -1,0 +1,55 @@
+{
+  "query": "Describe your favorite hobby.",
+  "response": "My favorite hobby is reading books, which allows me to explore new worlds and ideas.",
+  "result": {
+    "fluency": 4.0,
+    "gpt_fluency": 4.0,
+    "fluency_reason": "The RESPONSE is clear, coherent, and grammatically correct, with varied vocabulary and well-structured sentences. However, it lacks the complexity and sophistication needed for a higher score.",
+    "fluency_result": "pass",
+    "fluency_threshold": 3
+  }
+}
+{
+  "query": "What is your dream job?",
+  "response": "My dream job is to be a software engineer working on innovative projects.",
+  "result": {
+    "fluency": 3.0,
+    "gpt_fluency": 3.0,
+    "fluency_reason": "The RESPONSE is clear, grammatically correct, and coherent, but it lacks complexity and variety in sentence structure and vocabulary, which places it at Competent Fluency.",
+    "fluency_result": "pass",
+    "fluency_threshold": 3
+  }
+}
+{
+  "query": "Explain photosynthesis.",
+  "response": "Photosynthesis is the process by which plants convert light energy into chemical energy.",
+  "result": {
+    "fluency": 3.0,
+    "gpt_fluency": 3.0,
+    "fluency_reason": "The RESPONSE is clear and grammatically correct, but it lacks complexity, variety in sentence structure, and sophisticated vocabulary. It fits the criteria for Competent Fluency.",
+    "fluency_result": "pass",
+    "fluency_threshold": 3
+  }
+}
+{
+  "query": "How to bake a cake?",
+  "response": "To bake a cake, mix ingredients, pour into a pan, and bake at 350 degrees.",
+  "result": {
+    "fluency": 3.0,
+    "gpt_fluency": 3.0,
+    "fluency_reason": "The response is clear and coherent, with adequate vocabulary and correct grammar, but it lacks complexity and variety in sentence structure, which aligns with Competent Fluency.",
+    "fluency_result": "pass",
+    "fluency_threshold": 3
+  }
+}
+{
+  "query": "What is climate change?",
+  "response": "Climate change refers to long-term shifts in temperatures and weather patterns.",
+  "result": {
+    "fluency": 3.0,
+    "gpt_fluency": 3.0,
+    "fluency_reason": "The RESPONSE demonstrates competent fluency as it is clear, grammatically correct, and coherent, but lacks complexity and varied vocabulary.",
+    "fluency_result": "pass",
+    "fluency_threshold": 3
+  }
+}
