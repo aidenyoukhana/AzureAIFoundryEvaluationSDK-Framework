@@ -1,0 +1,7 @@
+{
+  "coherence": 3.0,
+  "gpt_coherence": 3.0,
+  "coherence_reason": "The RESPONSE is coherent but overly simplistic, providing only a surface-level answer without sufficient detail or elaboration. It partially addresses the QUERY but lacks depth and logical flow to be rated higher.",
+  "coherence_result": "pass",
+  "coherence_threshold": 3
+}

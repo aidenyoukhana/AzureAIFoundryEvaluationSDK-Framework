@@ -52,6 +52,27 @@ After setup, activate the virtual environment if not already active.
 
 All tests read data from the corresponding JSONL files in `data/` and validate the evaluators without hardcoding.
 
+### Generating Detailed Reports with Allure
+
+For enhanced test reporting with detailed visualizations, attachments, and step-by-step breakdowns:
+
+1. **Install Allure CLI** (if not already installed):
+   ```bash
+   brew install allure  # On macOS with Homebrew
+   # Or download from https://github.com/allure-framework/allure2/releases
+   ```
+
+2. **Run tests with Allure**:
+   ```bash
+   pytest tests/ --alluredir=allure-results -v
+   ```
+
+3. **Generate and view the report**:
+   ```bash
+   allure serve allure-results
+   ```
+   This opens a web browser with an interactive report showing test results, timelines, attachments (JSON inputs/outputs), and detailed steps.
+
 ## CI/CD with GitHub Actions
 
 This repository includes a GitHub Actions workflow (`.github/workflows/evaluate.yml`) that automatically runs AI evaluations on push to main or via manual trigger.

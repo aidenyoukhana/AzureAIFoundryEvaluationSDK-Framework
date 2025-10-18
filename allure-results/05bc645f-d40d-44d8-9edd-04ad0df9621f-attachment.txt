@@ -1,0 +1,77 @@
+{
+  "query": "What is AI?",
+  "response": "AI is artificial intelligence.",
+  "context": "Artificial intelligence is the simulation of human intelligence processes.",
+  "result": {
+    "relevance": 3.0,
+    "gpt_relevance": 3.0,
+    "relevance_reason": "The response directly answers the query by defining AI as artificial intelligence. However, it is overly brief and lacks elaboration or context, making it insufficient for a complete understanding.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3
+  }
+}
+{
+  "query": "Explain ML.",
+  "response": "ML is machine learning.",
+  "context": "Machine learning is a method of data analysis that automates model building.",
+  "result": {
+    "relevance": 3.0,
+    "gpt_relevance": 3.0,
+    "relevance_reason": "The response is accurate but overly simplistic, providing only the abbreviation's meaning without elaboration or context about machine learning. It partially addresses the query but lacks depth.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3
+  }
+}
+{
+  "query": "What is Python?",
+  "response": "Python is a programming language.",
+  "context": "Python is a high-level programming language known for its simplicity.",
+  "result": {
+    "relevance": 3.0,
+    "gpt_relevance": 3.0,
+    "relevance_reason": "The response directly answers the query by identifying Python as a programming language, but it lacks additional context or elaboration about Python's features, uses, or significance. It is accurate but minimal.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3
+  }
+}
+{
+  "query": "Describe cloud computing.",
+  "response": "Cloud computing is internet-based computing.",
+  "context": "Cloud computing delivers computing services over the internet.",
+  "result": {
+    "relevance": 3.0,
+    "gpt_relevance": 3.0,
+    "relevance_reason": "The response is accurate but overly simplistic, providing only a vague definition without elaboration or essential details about cloud computing, such as its features or applications. It partially addresses the query but lacks depth.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3
+  }
+}
+2025-10-17 12:10:03 -0700 8488689856 azure.ai.evaluation._legacy.prompty._prompty WARNING  [0/10] AsyncAzureOpenAI request failed. RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 3 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}. Retrying in 3.000000 seconds.
+Traceback (most recent call last):
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/azure/ai/evaluation/_legacy/prompty/_prompty.py", line 382, in _send_with_retries
+    response = await client.chat.completions.create(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/resources/chat/completions/completions.py", line 2603, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<48 lines>...
+    )
+    ^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 3 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}
+{
+  "query": "What is blockchain?",
+  "response": "Blockchain is a distributed ledger.",
+  "context": "Blockchain is a system for recording information in a way that makes it difficult to change.",
+  "result": {
+    "relevance": 4.0,
+    "gpt_relevance": 4.0,
+    "relevance_reason": "The response is accurate and directly addresses the query by defining blockchain as a distributed ledger. However, it lacks elaboration or additional context to enhance understanding.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "fluency": 3.0,
+  "gpt_fluency": 3.0,
+  "fluency_reason": "The RESPONSE is clear and coherent with no grammatical errors, but it lacks complexity and variety in sentence structure and vocabulary, which aligns with Competent Fluency.",
+  "fluency_result": "pass",
+  "fluency_threshold": 3
+}

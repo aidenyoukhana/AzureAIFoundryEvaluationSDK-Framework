@@ -1,0 +1,55 @@
+{
+  "query": "What is AI?",
+  "response": "AI is artificial intelligence.",
+  "ground_truth": "Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems.",
+  "result": {
+    "response_completeness": 1,
+    "response_completeness_result": "fail",
+    "response_completeness_threshold": 3,
+    "response_completeness_reason": "The Response is fully incomplete as it does not contain any of the detailed information from the Ground Truth."
+  }
+}
+{
+  "query": "Explain ML.",
+  "response": "ML is machine learning.",
+  "ground_truth": "Machine learning (ML) is a type of artificial intelligence that allows software applications to become more accurate at predicting outcomes.",
+  "result": {
+    "response_completeness": 1,
+    "response_completeness_result": "fail",
+    "response_completeness_threshold": 3,
+    "response_completeness_reason": "The response does not contain any of the key information from the ground truth, making it fully incomplete."
+  }
+}
+{
+  "query": "What is Python?",
+  "response": "Python is a programming language.",
+  "ground_truth": "Python is a high-level, interpreted programming language known for its simplicity and readability.",
+  "result": {
+    "response_completeness": 2,
+    "response_completeness_result": "fail",
+    "response_completeness_threshold": 3,
+    "response_completeness_reason": "The response is accurate in identifying Python as a programming language but misses most of the key details provided in the ground truth, such as its high-level nature, being interpreted, and its simplicity and readability."
+  }
+}
+{
+  "query": "Describe cloud computing.",
+  "response": "Cloud computing is internet-based computing.",
+  "ground_truth": "Cloud computing delivers computing services over the internet, including servers, storage, databases, networking, and software.",
+  "result": {
+    "response_completeness": 2,
+    "response_completeness_result": "fail",
+    "response_completeness_threshold": 3,
+    "response_completeness_reason": "The response is overly vague and does not include the specific details about the services delivered by cloud computing as outlined in the ground truth. It only captures a small percentage of the information."
+  }
+}
+{
+  "query": "What is blockchain?",
+  "response": "Blockchain is a distributed ledger.",
+  "ground_truth": "Blockchain is a distributed database or ledger that is shared among the nodes of a computer network, storing information in a way that makes it difficult to change or hack.",
+  "result": {
+    "response_completeness": 3,
+    "response_completeness_result": "pass",
+    "response_completeness_threshold": 3,
+    "response_completeness_reason": "The Response is partially accurate but omits key aspects of the Ground Truth, such as the shared nature of the database, its security features, and resistance to changes or hacking."
+  }
+}
