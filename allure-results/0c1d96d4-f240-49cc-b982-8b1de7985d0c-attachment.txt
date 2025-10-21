@@ -1,0 +1,55 @@
+{
+  "response": "AI is artificial intelligence.",
+  "context": "Artificial intelligence is the simulation of human intelligence processes by machines.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but lacks essential details from the CONTEXT, making it incomplete and missing critical information.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "ML is machine learning.",
+  "context": "Machine learning is a subset of AI that enables systems to learn from data.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but incomplete, as it fails to include essential details from the CONTEXT.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "Python is a programming language.",
+  "context": "Python is a high-level language used for software development.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but incomplete, as it does not include the critical detail about Python being a high-level language used for software development.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "Cloud computing delivers services over the internet.",
+  "context": "Cloud computing provides on-demand computing resources.",
+  "result": {
+    "groundedness": 3.0,
+    "gpt_groundedness": 3.0,
+    "groundedness_reason": "The RESPONSE is related to the CONTEXT but introduces information not explicitly supported by the CONTEXT, which makes it an accurate response with unsupported additions.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "Blockchain is a distributed ledger.",
+  "context": "Blockchain technology ensures secure and transparent transactions.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but incomplete, as it does not include the essential details about secure and transparent transactions from the CONTEXT.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}

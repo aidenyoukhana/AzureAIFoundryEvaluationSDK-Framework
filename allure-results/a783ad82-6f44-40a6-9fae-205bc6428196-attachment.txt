@@ -1,0 +1,55 @@
+{
+  "query": "Describe your favorite hobby.",
+  "response": "My favorite hobby is reading books, which allows me to explore new worlds and ideas.",
+  "result": {
+    "fluency": 4.0,
+    "gpt_fluency": 4.0,
+    "fluency_reason": "The response is well-articulated, grammatically correct, and coherent, with varied sentence structure and appropriate vocabulary. However, it does not reach the level of sophistication or nuanced expression required for the highest fluency level.",
+    "fluency_result": "pass",
+    "fluency_threshold": 3
+  }
+}
+{
+  "query": "What is your dream job?",
+  "response": "My dream job is to be a software engineer working on innovative projects.",
+  "result": {
+    "fluency": 3.0,
+    "gpt_fluency": 3.0,
+    "fluency_reason": "The response is clear, grammatically correct, and coherent, with adequate vocabulary and proper sentence structure. However, it does not demonstrate the complexity or variety required for higher fluency levels.",
+    "fluency_result": "pass",
+    "fluency_threshold": 3
+  }
+}
+{
+  "query": "Explain photosynthesis.",
+  "response": "Photosynthesis is the process by which plants convert light energy into chemical energy.",
+  "result": {
+    "fluency": 3.0,
+    "gpt_fluency": 3.0,
+    "fluency_reason": "The response is clear and grammatically correct, but it lacks complexity and variety in sentence structure and vocabulary, which aligns with the definition of Competent Fluency.",
+    "fluency_result": "pass",
+    "fluency_threshold": 3
+  }
+}
+{
+  "query": "How to bake a cake?",
+  "response": "To bake a cake, mix ingredients, pour into a pan, and bake at 350 degrees.",
+  "result": {
+    "fluency": 3.0,
+    "gpt_fluency": 3.0,
+    "fluency_reason": "The response is clear and understandable with no errors, but it lacks complexity, variety, and advanced vocabulary, which aligns with the definition of Competent Fluency.",
+    "fluency_result": "pass",
+    "fluency_threshold": 3
+  }
+}
+{
+  "query": "What is climate change?",
+  "response": "Climate change refers to long-term shifts in temperatures and weather patterns.",
+  "result": {
+    "fluency": 3.0,
+    "gpt_fluency": 3.0,
+    "fluency_reason": "The RESPONSE is clear, grammatically correct, and coherent, but it lacks complexity and varied vocabulary, placing it at a competent level of fluency.",
+    "fluency_result": "pass",
+    "fluency_threshold": 3
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "query": "What is AI?",
+  "retrieved_documents": [
+    "Artificial intelligence is the simulation of human intelligence.",
+    "AI includes machine learning."
+  ],
+  "ground_truth_documents": [
+    "Artificial intelligence is the simulation of human intelligence.",
+    "AI is used in various applications."
+  ],
+  "result": {
+    "retrieval": 5.0,
+    "gpt_retrieval": 5.0,
+    "retrieval_reason": "The context is highly relevant to the query, provides a clear and concise answer, and the most relevant chunk is ranked at the top. This aligns perfectly with the definition of a Score 5.",
+    "retrieval_result": "pass",
+    "retrieval_threshold": 3
+  }
+}
+{
+  "query": "Explain ML.",
+  "retrieved_documents": [
+    "Machine learning is a subset of AI.",
+    "ML uses algorithms."
+  ],
+  "ground_truth_documents": [
+    "Machine learning is a method of data analysis.",
+    "ML automates model building."
+  ],
+  "result": {
+    "retrieval": 2.0,
+    "gpt_retrieval": 2.0,
+    "retrieval_reason": "The context is partially relevant to the query as it mentions machine learning and provides basic information, but it does not fully address the query or provide a detailed explanation. The ranking is not applicable due to the limited number of chunks.",
+    "retrieval_result": "fail",
+    "retrieval_threshold": 3
+  }
+}
+{
+  "query": "What is Python?",
+  "retrieved_documents": [
+    "Python is a programming language.",
+    "Python is easy to learn."
+  ],
+  "ground_truth_documents": [
+    "Python is a high-level language.",
+    "Python is known for simplicity."
+  ],
+  "result": {
+    "retrieval": 5.0,
+    "gpt_retrieval": 5.0,
+    "retrieval_reason": "The context fully addresses the query, with the most relevant chunk ranked at the top and no external knowledge bias introduced.",
+    "retrieval_result": "pass",
+    "retrieval_threshold": 3
+  }
+}
+{
+  "query": "Describe cloud computing.",
+  "retrieved_documents": [
+    "Cloud computing delivers services over internet.",
+    "Cloud is scalable."
+  ],
+  "ground_truth_documents": [
+    "Cloud computing is internet-based computing.",
+    "Cloud provides on-demand resources."
+  ],
+  "result": {
+    "retrieval": 4.0,
+    "gpt_retrieval": 4.0,
+    "retrieval_reason": "The context is relevant to the query but lacks depth and detail. It provides a basic description but does not fully address the query comprehensively. The ranking is appropriate, and there is no external knowledge bias.",
+    "retrieval_result": "pass",
+    "retrieval_threshold": 3
+  }
+}
+{
+  "query": "What is blockchain?",
+  "retrieved_documents": [
+    "Blockchain is a distributed ledger.",
+    "Blockchain ensures security."
+  ],
+  "ground_truth_documents": [
+    "Blockchain records information securely.",
+    "Blockchain makes data hard to change."
+  ],
+  "result": {
+    "retrieval": 5.0,
+    "gpt_retrieval": 5.0,
+    "retrieval_reason": "The context fully addresses the query with relevant information, and the most pertinent chunk is ranked at the top. There is no external knowledge bias, and the retrieval respects the internal context.",
+    "retrieval_result": "pass",
+    "retrieval_threshold": 3
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "coherence": 4.0,
+  "gpt_coherence": 4.0,
+  "coherence_reason": "The RESPONSE is coherent and directly answers the QUERY, but it is too brief and lacks depth or elaboration, which prevents it from achieving a higher score.",
+  "coherence_result": "pass",
+  "coherence_threshold": 3
+}

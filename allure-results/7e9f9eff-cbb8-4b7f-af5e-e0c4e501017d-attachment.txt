@@ -1,0 +1,60 @@
+{
+  "query": "What is AI?",
+  "response": "AI is artificial intelligence.",
+  "context": "Artificial intelligence is the simulation of human intelligence processes.",
+  "result": {
+    "relevance": 4.0,
+    "gpt_relevance": 4.0,
+    "relevance_reason": "The response directly answers the query by defining AI as artificial intelligence. However, it lacks elaboration or additional context that could enhance understanding, making it sufficient but not comprehensive.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3
+  }
+}
+{
+  "query": "Explain ML.",
+  "response": "ML is machine learning.",
+  "context": "Machine learning is a method of data analysis that automates model building.",
+  "result": {
+    "relevance": 3.0,
+    "gpt_relevance": 3.0,
+    "relevance_reason": "The response is accurate but overly simplistic, providing only the abbreviation's meaning without elaboration or context about machine learning. It partially addresses the query but lacks depth.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3
+  }
+}
+{
+  "query": "What is Python?",
+  "response": "Python is a programming language.",
+  "context": "Python is a high-level programming language known for its simplicity.",
+  "result": {
+    "relevance": 4.0,
+    "gpt_relevance": 4.0,
+    "relevance_reason": "The response directly answers the query by stating that Python is a programming language. While accurate, it lacks elaboration or additional context that could enhance understanding.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3
+  }
+}
+{
+  "query": "Describe cloud computing.",
+  "response": "Cloud computing is internet-based computing.",
+  "context": "Cloud computing delivers computing services over the internet.",
+  "result": {
+    "relevance": 3.0,
+    "gpt_relevance": 3.0,
+    "relevance_reason": "The response is accurate but overly simplistic, providing only a vague definition without elaboration or detail about cloud computing's features, benefits, or applications. It partially addresses the query but lacks completeness.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3
+  }
+}
+{
+  "query": "What is blockchain?",
+  "response": "Blockchain is a distributed ledger.",
+  "context": "Blockchain is a system for recording information in a way that makes it difficult to change.",
+  "result": {
+    "relevance": 3.0,
+    "gpt_relevance": 3.0,
+    "relevance_reason": "The response is accurate but overly brief, providing only a basic definition of blockchain as a distributed ledger without elaborating on its structure, purpose, or significance. It partially addresses the query but lacks completeness.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3
+  }
+}

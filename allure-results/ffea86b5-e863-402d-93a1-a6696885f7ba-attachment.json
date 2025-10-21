@@ -1,0 +1,9 @@
+{
+  "query": "How does AI work?",
+  "response": "AI works by using algorithms and data to mimic human cognitive functions.",
+  "description": {
+    "context": {
+      "system-prompt": "Provide coherent responses"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "response": "AI is artificial intelligence.",
+  "context": "Artificial intelligence is the simulation of human intelligence processes by machines.",
+  "result": {
+    "groundedness_pro_reason": "All Contents are grounded",
+    "groundedness_pro_label": true,
+    "groundedness_pro_score": 1,
+    "groundedness_pro_threshold": 5,
+    "groundedness_pro_result": "pass"
+  }
+}
+{
+  "response": "ML is machine learning.",
+  "context": "Machine learning is a subset of AI that enables systems to learn from data.",
+  "result": {
+    "groundedness_pro_reason": "All Contents are grounded",
+    "groundedness_pro_label": true,
+    "groundedness_pro_score": 1,
+    "groundedness_pro_threshold": 5,
+    "groundedness_pro_result": "pass"
+  }
+}
+{
+  "response": "Python is a programming language.",
+  "context": "Python is a high-level language used for software development.",
+  "result": {
+    "groundedness_pro_reason": "All Contents are grounded",
+    "groundedness_pro_label": true,
+    "groundedness_pro_score": 1,
+    "groundedness_pro_threshold": 5,
+    "groundedness_pro_result": "pass"
+  }
+}
+{
+  "response": "Cloud computing delivers services over the internet.",
+  "context": "Cloud computing provides on-demand computing resources.",
+  "result": {
+    "groundedness_pro_reason": "'Cloud computing delivers services over the internet.' is ungrounded because the premise states that \"Cloud computing provides on-demand computing resources.\" It does not mention how these resources are delivered, specifically whether they are delivered over the internet. Thus, it is not possible to determine whether the hypothesis is true or false without further information.",
+    "groundedness_pro_label": false,
+    "groundedness_pro_score": 1,
+    "groundedness_pro_threshold": 5,
+    "groundedness_pro_result": "pass"
+  }
+}
+{
+  "response": "Blockchain is a distributed ledger.",
+  "context": "Blockchain technology ensures secure and transparent transactions.",
+  "result": {
+    "groundedness_pro_reason": "'Blockchain is a distributed ledger.' is ungrounded because the premise does not mention anything about blockchain being a distributed ledger. It's neutral.",
+    "groundedness_pro_label": false,
+    "groundedness_pro_score": 1,
+    "groundedness_pro_threshold": 5,
+    "groundedness_pro_result": "pass"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "query": "What is AI?",
+  "retrieved_documents": [
+    "Artificial intelligence is the simulation of human intelligence.",
+    "AI includes machine learning."
+  ],
+  "ground_truth_documents": [
+    "Artificial intelligence is the simulation of human intelligence.",
+    "AI is used in various applications."
+  ],
+  "result": {
+    "retrieval": 5.0,
+    "gpt_retrieval": 5.0,
+    "retrieval_reason": "The context fully addresses the query with relevant information and surfaces the most pertinent chunk at the top, meeting the criteria for a high-quality retrieval.",
+    "retrieval_result": "pass",
+    "retrieval_threshold": 3
+  }
+}
+{
+  "query": "Explain ML.",
+  "retrieved_documents": [
+    "Machine learning is a subset of AI.",
+    "ML uses algorithms."
+  ],
+  "ground_truth_documents": [
+    "Machine learning is a method of data analysis.",
+    "ML automates model building."
+  ],
+  "result": {
+    "retrieval": 2.0,
+    "gpt_retrieval": 2.0,
+    "retrieval_reason": "The context is partially relevant to the query but does not provide a comprehensive explanation of machine learning. It lacks depth and detail, making it insufficient to fully address the query.",
+    "retrieval_result": "fail",
+    "retrieval_threshold": 3
+  }
+}
+{
+  "query": "What is Python?",
+  "retrieved_documents": [
+    "Python is a programming language.",
+    "Python is easy to learn."
+  ],
+  "ground_truth_documents": [
+    "Python is a high-level language.",
+    "Python is known for simplicity."
+  ],
+  "result": {
+    "retrieval": 5.0,
+    "gpt_retrieval": 5.0,
+    "retrieval_reason": "The context fully addresses the query, with the most relevant chunk ranked at the top, making it highly relevant and well-ranked.",
+    "retrieval_result": "pass",
+    "retrieval_threshold": 3
+  }
+}
+{
+  "query": "Describe cloud computing.",
+  "retrieved_documents": [
+    "Cloud computing delivers services over internet.",
+    "Cloud is scalable."
+  ],
+  "ground_truth_documents": [
+    "Cloud computing is internet-based computing.",
+    "Cloud provides on-demand resources."
+  ],
+  "result": {
+    "retrieval": 5.0,
+    "gpt_retrieval": 5.0,
+    "retrieval_reason": "The context fully addresses the query with relevant information, and the most pertinent chunk is ranked at the top. No external knowledge bias is introduced.",
+    "retrieval_result": "pass",
+    "retrieval_threshold": 3
+  }
+}
+{
+  "query": "What is blockchain?",
+  "retrieved_documents": [
+    "Blockchain is a distributed ledger.",
+    "Blockchain ensures security."
+  ],
+  "ground_truth_documents": [
+    "Blockchain records information securely.",
+    "Blockchain makes data hard to change."
+  ],
+  "result": {
+    "retrieval": 5.0,
+    "gpt_retrieval": 5.0,
+    "retrieval_reason": "The context fully addresses the query with relevant information, and the most pertinent chunk is ranked at the top. No external knowledge bias is introduced.",
+    "retrieval_result": "pass",
+    "retrieval_threshold": 3
+  }
+}

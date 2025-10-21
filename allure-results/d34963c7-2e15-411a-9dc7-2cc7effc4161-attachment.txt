@@ -1,0 +1,260 @@
+{
+  "query": "What is the capital of France?",
+  "response": "Paris",
+  "context": "France is a country in Western Europe with several cities, but Paris is its capital and most populous city.",
+  "ground_truth": "Paris",
+  "result": {
+    "f1_score": 1.0,
+    "f1_result": "pass",
+    "f1_threshold": 3,
+    "similarity": 5.0,
+    "gpt_similarity": 5.0,
+    "similarity_result": "pass",
+    "similarity_threshold": 3,
+    "relevance": 4.0,
+    "gpt_relevance": 4.0,
+    "relevance_reason": "The response directly and accurately answers the query by providing the name of France's capital, Paris, which is the complete and essential information requested.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3,
+    "coherence": 4.0,
+    "gpt_coherence": 4.0,
+    "coherence_reason": "The RESPONSE is coherent and effectively addresses the QUERY with a clear and logical answer.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3,
+    "groundedness": 5.0,
+    "gpt_groundedness": 5.0,
+    "groundedness_reason": "The response is fully correct and complete, directly addressing the query with precise information from the context.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3,
+    "fluency": 1.0,
+    "gpt_fluency": 1.0,
+    "fluency_reason": "The response is a single word and does not demonstrate any fluency traits such as grammar, vocabulary, or sentence structure. It is not a coherent or meaningful communication.",
+    "fluency_result": "fail",
+    "fluency_threshold": 3
+  }
+}
+2025-10-21 12:28:50 -0700 13170143232 azure.ai.evaluation._legacy.prompty._prompty WARNING  [0/10] AsyncAzureOpenAI request failed. RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 10 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}. Retrying in 10.000000 seconds.
+Traceback (most recent call last):
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/azure/ai/evaluation/_legacy/prompty/_prompty.py", line 382, in _send_with_retries
+    response = await client.chat.completions.create(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/resources/chat/completions/completions.py", line 2603, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<48 lines>...
+    )
+    ^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 10 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}
+{
+  "query": "Who wrote Romeo and Juliet?",
+  "response": "William Shakespeare",
+  "context": "William Shakespeare was an English playwright and poet who wrote many famous plays during the Elizabethan era, including Romeo and Juliet.",
+  "ground_truth": "William Shakespeare",
+  "result": {
+    "f1_score": 1.0,
+    "f1_result": "pass",
+    "f1_threshold": 3,
+    "relevance": 4.0,
+    "gpt_relevance": 4.0,
+    "relevance_reason": "The response directly and accurately answers the query by identifying William Shakespeare as the author of Romeo and Juliet. It fully satisfies the question without omissions or additional context needed.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3,
+    "groundedness": 5.0,
+    "gpt_groundedness": 5.0,
+    "groundedness_reason": "The RESPONSE is fully correct and complete, directly addressing the QUERY with accurate information grounded in the CONTEXT.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3,
+    "fluency": 1.0,
+    "gpt_fluency": 1.0,
+    "fluency_reason": "The RESPONSE is incomprehensible and does not demonstrate any command of language, making it fall under Emergent Fluency.",
+    "fluency_result": "fail",
+    "fluency_threshold": 3,
+    "coherence": 4.0,
+    "gpt_coherence": 4.0,
+    "coherence_reason": "The RESPONSE is coherent and directly answers the QUERY, but it lacks depth or elaboration, which prevents it from achieving a higher score.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3,
+    "similarity": 5.0,
+    "gpt_similarity": 5.0,
+    "similarity_result": "pass",
+    "similarity_threshold": 3
+  }
+}
+2025-10-21 12:29:02 -0700 13170143232 azure.ai.evaluation._legacy.prompty._prompty WARNING  [0/10] AsyncAzureOpenAI request failed. RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 6 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}. Retrying in 6.000000 seconds.
+Traceback (most recent call last):
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/azure/ai/evaluation/_legacy/prompty/_prompty.py", line 382, in _send_with_retries
+    response = await client.chat.completions.create(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/resources/chat/completions/completions.py", line 2603, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<48 lines>...
+    )
+    ^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 6 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}
+{
+  "query": "What is 2 + 2?",
+  "response": "4",
+  "context": "Basic arithmetic: 2 + 2 equals 4.",
+  "ground_truth": "4",
+  "result": {
+    "f1_score": 1.0,
+    "f1_result": "pass",
+    "f1_threshold": 3,
+    "relevance": 4.0,
+    "gpt_relevance": 4.0,
+    "relevance_reason": "The response directly and accurately answers the query by providing the correct sum of 2 + 2, which is 4. It fully satisfies the question without any omissions or need for elaboration.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3,
+    "groundedness": 5.0,
+    "gpt_groundedness": 5.0,
+    "groundedness_reason": "The RESPONSE is fully correct and complete, directly addressing the QUERY with precise information grounded in the CONTEXT.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3,
+    "coherence": 4.0,
+    "gpt_coherence": 4.0,
+    "coherence_reason": "The RESPONSE is coherent and directly answers the QUERY. However, due to the simplicity of the question, the response does not demonstrate sophisticated organization or flow, which is not required in this case.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3,
+    "fluency": 1.0,
+    "gpt_fluency": 1.0,
+    "fluency_reason": "The RESPONSE is incomprehensible and does not demonstrate any command of language, making it impossible to understand.",
+    "fluency_result": "fail",
+    "fluency_threshold": 3,
+    "similarity": 5.0,
+    "gpt_similarity": 5.0,
+    "similarity_result": "pass",
+    "similarity_threshold": 3
+  }
+}
+2025-10-21 12:29:09 -0700 6109016064 azure.ai.evaluation._legacy.prompty._prompty WARNING  [0/10] AsyncAzureOpenAI request failed. RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}. Retrying in 1.000000 seconds.
+Traceback (most recent call last):
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/azure/ai/evaluation/_legacy/prompty/_prompty.py", line 382, in _send_with_retries
+    response = await client.chat.completions.create(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/resources/chat/completions/completions.py", line 2603, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<48 lines>...
+    )
+    ^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}
+2025-10-21 12:29:09 -0700 6125842432 azure.ai.evaluation._legacy.prompty._prompty WARNING  [0/10] AsyncAzureOpenAI request failed. RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}. Retrying in 1.000000 seconds.
+Traceback (most recent call last):
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/azure/ai/evaluation/_legacy/prompty/_prompty.py", line 382, in _send_with_retries
+    response = await client.chat.completions.create(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/resources/chat/completions/completions.py", line 2603, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<48 lines>...
+    )
+    ^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}
+2025-10-21 12:29:11 -0700 6125842432 azure.ai.evaluation._legacy.prompty._prompty WARNING  [1/10] AsyncAzureOpenAI request failed. RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}. Retrying in 1.000000 seconds.
+Traceback (most recent call last):
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/azure/ai/evaluation/_legacy/prompty/_prompty.py", line 382, in _send_with_retries
+    response = await client.chat.completions.create(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/resources/chat/completions/completions.py", line 2603, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<48 lines>...
+    )
+    ^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aiden.youkhana/AzureAIFoundryEvaluationSDK-Framework/venv/lib/python3.13/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'code': '429', 'message': 'Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-12-01-preview have exceeded token rate limit of your current AIServices S0 pricing tier. Please retry after 1 second. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit. For Free Account customers, upgrade to Pay as you Go here: https://aka.ms/429TrialUpgrade.'}}
+{
+  "query": "What is the largest planet?",
+  "response": "Jupiter",
+  "context": "In our solar system, Jupiter is the largest planet, with a mass more than twice that of all other planets combined.",
+  "ground_truth": "Jupiter",
+  "result": {
+    "f1_score": 1.0,
+    "f1_result": "pass",
+    "f1_threshold": 3,
+    "similarity": 5.0,
+    "gpt_similarity": 5.0,
+    "similarity_result": "pass",
+    "similarity_threshold": 3,
+    "coherence": 3.0,
+    "gpt_coherence": 3.0,
+    "coherence_reason": "The response is coherent in addressing the query but lacks depth and organization, making it a minimally coherent answer.",
+    "coherence_result": "pass",
+    "coherence_threshold": 3,
+    "fluency": 1.0,
+    "gpt_fluency": 1.0,
+    "fluency_reason": "The response is minimal and does not demonstrate any fluency in written communication. It aligns with the characteristics of \"Emergent Fluency\" as defined in the rating system.",
+    "fluency_result": "fail",
+    "fluency_threshold": 3,
+    "groundedness": 5.0,
+    "gpt_groundedness": 5.0,
+    "groundedness_reason": "The RESPONSE is fully correct and complete, directly addressing the QUERY with precise information from the CONTEXT.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3,
+    "relevance": 4.0,
+    "gpt_relevance": 4.0,
+    "relevance_reason": "The response directly answers the query by identifying Jupiter as the largest planet, which is accurate and sufficient to fully address the question.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3
+  }
+}
+{
+  "query": "How does the internet work?",
+  "response": "Through interconnected networks using protocols like TCP/IP",
+  "context": "The internet is a global network of interconnected computers that communicate using standardized protocols like TCP/IP to transfer data.",
+  "ground_truth": "Through interconnected networks using protocols like TCP/IP",
+  "result": {
+    "f1_score": 1.0,
+    "f1_result": "pass",
+    "f1_threshold": 3,
+    "similarity": 5.0,
+    "gpt_similarity": 5.0,
+    "similarity_result": "pass",
+    "similarity_threshold": 3,
+    "relevance": 4.0,
+    "gpt_relevance": 4.0,
+    "relevance_reason": "The response directly addresses the query by explaining that the internet works through interconnected networks using protocols like TCP/IP. However, it lacks elaboration or additional context to fully satisfy the query.",
+    "relevance_result": "pass",
+    "relevance_threshold": 3,
+    "groundedness": 5.0,
+    "gpt_groundedness": 5.0,
+    "groundedness_reason": "The response is fully correct and complete, as it directly answers the query using the relevant details from the context.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3,
+    "fluency": 3.0,
+    "gpt_fluency": 3.0,
+    "fluency_reason": "The RESPONSE is clear and grammatically correct, but it is brief and lacks sentence complexity or varied vocabulary, which limits its fluency.",
+    "fluency_result": "pass",
+    "fluency_threshold": 3,
+    "coherence": 2.0,
+    "gpt_coherence": 2.0,
+    "coherence_reason": "The response contains relevant keywords but fails to provide a structured or clear explanation of the query, making it poorly coherent.",
+    "coherence_result": "fail",
+    "coherence_threshold": 3
+  }
+}

@@ -1,0 +1,5 @@
+[33mWARNING [0m azure.ai.evaluation._common._experimental:_experimental.py:79 Class ContentSafetyEvaluator: This is an experimental class, and may change at any time. Please see https://aka.ms/azuremlexperimental for more information.
+[33mWARNING [0m azure.ai.evaluation._common._experimental:_experimental.py:79 Class ViolenceEvaluator: This is an experimental class, and may change at any time. Please see https://aka.ms/azuremlexperimental for more information.
+[33mWARNING [0m azure.ai.evaluation._common._experimental:_experimental.py:79 Class SexualEvaluator: This is an experimental class, and may change at any time. Please see https://aka.ms/azuremlexperimental for more information.
+[33mWARNING [0m azure.ai.evaluation._common._experimental:_experimental.py:79 Class SelfHarmEvaluator: This is an experimental class, and may change at any time. Please see https://aka.ms/azuremlexperimental for more information.
+[33mWARNING [0m azure.ai.evaluation._common._experimental:_experimental.py:79 Class HateUnfairnessEvaluator: This is an experimental class, and may change at any time. Please see https://aka.ms/azuremlexperimental for more information.

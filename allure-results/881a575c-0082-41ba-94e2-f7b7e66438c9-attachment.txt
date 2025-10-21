@@ -1,0 +1,45 @@
+{
+  "response": "AI is artificial intelligence.",
+  "ground_truth": "Artificial intelligence is the simulation of human intelligence processes.",
+  "result": {
+    "gleu_score": 0.08823529411764706,
+    "gleu_result": "fail",
+    "gleu_threshold": 0.5
+  }
+}
+{
+  "response": "ML is machine learning.",
+  "ground_truth": "Machine learning is a method of data analysis that automates analytical model building.",
+  "result": {
+    "gleu_score": 0.06,
+    "gleu_result": "fail",
+    "gleu_threshold": 0.5
+  }
+}
+{
+  "response": "Python is a programming language.",
+  "ground_truth": "Python is a high-level programming language known for its simplicity.",
+  "result": {
+    "gleu_score": 0.2631578947368421,
+    "gleu_result": "fail",
+    "gleu_threshold": 0.5
+  }
+}
+{
+  "response": "Cloud computing is internet-based computing.",
+  "ground_truth": "Cloud computing delivers computing services over the internet.",
+  "result": {
+    "gleu_score": 0.16666666666666666,
+    "gleu_result": "fail",
+    "gleu_threshold": 0.5
+  }
+}
+{
+  "response": "Blockchain is a distributed ledger.",
+  "ground_truth": "Blockchain is a system for recording information in a way that makes it difficult to change.",
+  "result": {
+    "gleu_score": 0.11290322580645161,
+    "gleu_result": "fail",
+    "gleu_threshold": 0.5
+  }
+}

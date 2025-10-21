@@ -1,0 +1,55 @@
+{
+  "response": "AI is artificial intelligence.",
+  "context": "Artificial intelligence is the simulation of human intelligence processes by machines.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but misses essential information from the CONTEXT, making it incomplete.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "ML is machine learning.",
+  "context": "Machine learning is a subset of AI that enables systems to learn from data.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but omits critical details from the CONTEXT, such as the relationship between machine learning and AI and the concept of learning from data. Therefore, it is incomplete.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "Python is a programming language.",
+  "context": "Python is a high-level language used for software development.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but omits critical details from the CONTEXT, making it incomplete.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "Cloud computing delivers services over the internet.",
+  "context": "Cloud computing provides on-demand computing resources.",
+  "result": {
+    "groundedness": 3.0,
+    "gpt_groundedness": 3.0,
+    "groundedness_reason": "The RESPONSE is related to the CONTEXT but introduces information not supported by the provided material, which aligns with the definition of Groundedness: 3.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}
+{
+  "response": "Blockchain is a distributed ledger.",
+  "context": "Blockchain technology ensures secure and transparent transactions.",
+  "result": {
+    "groundedness": 4.0,
+    "gpt_groundedness": 4.0,
+    "groundedness_reason": "The RESPONSE is accurate but does not include essential details from the CONTEXT, such as the secure and transparent nature of blockchain transactions.",
+    "groundedness_result": "pass",
+    "groundedness_threshold": 3
+  }
+}

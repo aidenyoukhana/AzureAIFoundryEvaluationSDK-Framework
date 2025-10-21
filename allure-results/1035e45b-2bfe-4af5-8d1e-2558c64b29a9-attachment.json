@@ -1,0 +1,9 @@
+{
+  "query": "What is deep learning?",
+  "response": "Deep learning is a type of machine learning that uses neural networks with many layers.",
+  "description": {
+    "context": {
+      "system-prompt": "Provide coherent responses"
+    }
+  }
+}

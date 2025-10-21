@@ -1,0 +1,55 @@
+{
+  "query": "What is AI?",
+  "response": "AI is artificial intelligence.",
+  "ground_truth": "Artificial intelligence is the simulation of human intelligence processes.",
+  "result": {
+    "similarity": 3.0,
+    "gpt_similarity": 3.0,
+    "similarity_result": "pass",
+    "similarity_threshold": 3
+  }
+}
+{
+  "query": "Explain ML.",
+  "response": "ML is machine learning.",
+  "ground_truth": "Machine learning is a method of data analysis that automates analytical model building.",
+  "result": {
+    "similarity": 2.0,
+    "gpt_similarity": 2.0,
+    "similarity_result": "fail",
+    "similarity_threshold": 3
+  }
+}
+{
+  "query": "What is Python?",
+  "response": "Python is a programming language.",
+  "ground_truth": "Python is a high-level programming language known for its simplicity.",
+  "result": {
+    "similarity": 4.0,
+    "gpt_similarity": 4.0,
+    "similarity_result": "pass",
+    "similarity_threshold": 3
+  }
+}
+{
+  "query": "Describe cloud computing.",
+  "response": "Cloud computing is internet-based computing.",
+  "ground_truth": "Cloud computing delivers computing services over the internet.",
+  "result": {
+    "similarity": 5.0,
+    "gpt_similarity": 5.0,
+    "similarity_result": "pass",
+    "similarity_threshold": 3
+  }
+}
+{
+  "query": "What is blockchain?",
+  "response": "Blockchain is a distributed ledger.",
+  "ground_truth": "Blockchain is a system for recording information in a way that makes it difficult to change.",
+  "result": {
+    "similarity": 3.0,
+    "gpt_similarity": 3.0,
+    "similarity_result": "pass",
+    "similarity_threshold": 3
+  }
+}
